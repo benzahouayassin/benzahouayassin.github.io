@@ -1,0 +1,1992 @@
+<!DOCTYPE html>
+<html lang="it" class="no-js">
+<head>
+
+<!-- commons-header.php -->
+<meta charset="utf-8">
+
+ 
+        <meta name="thumb" content="https://www.varesenews.it/photogallery_new/images/2020/12/vario-1194711.610x431.jpg">
+         <meta property="og:image" content="https://www.varesenews.it/photogallery_new/images/2020/12/vario-1194711.610x431.jpg" />
+              <meta name="twitter:image" content="https://www.varesenews.it/photogallery_new/images/2020/12/vario-1194711.610x431.jpg">
+        <Meta name="EdBlankInTitle" content=" - VareseNews">
+        <Meta name="EdDateTime" content="2020/12/23">
+
+           <title>Ambiente e inquinamento: la natura può aiutare - LegnanoNews</title>
+
+<script>// noinspection JSAnnotator
+    const wp_debug = false</script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        
+        ga('create', 'UA-144088447-5', 'auto');
+        
+                ga('create', 'UA-21740365-16', 'auto', {'name': 'extra'});
+                    ga('create', 'UA-144088447-2', 'auto', {'name': 'network'});
+                        ga('send', 'pageview', {
+                                'dimension1':  'post'   ,
+                'dimension2':  '',
+                                'dimension3':  'altri',
+
+                'anonymizeIp': true
+            });
+                    ga('extra.send', 'pageview', {
+                                'dimension1':  'post'   ,
+                'dimension2':  '',
+                                'dimension3':  'altri',
+
+                'anonymizeIp': true
+            });
+                    ga('network.send', 'pageview', {
+                                'dimension1':  'post'   ,
+                'dimension2':  '',
+                                'dimension3':  'altri',
+
+                'anonymizeIp': true
+            });
+        
+
+            </script>
+
+<!-- BEGIN QUANTCAST CHOICE -->
+<!-- Quantcast Choice. tag Consent Manager Tag v2.0 (for TCF 2.0) -->
+<script type="text/javascript" async=true>
+    (function() {
+        var host = window.location.hostname;
+        var element = document.createElement('script');
+        var firstScript = document.getElementsByTagName('script')[0];
+        var milliseconds = new Date().getTime();
+        var url = 'https://quantcast.mgr.consensu.org'
+            .concat('/choice/', 'czQ1ypDmZgwZn', '/', host, '/choice.js')
+            .concat('?timestamp=', milliseconds);
+        var uspTries = 0;
+        var uspTriesLimit = 3;
+        element.async = true;
+        element.type = 'text/javascript';
+        element.src = url;
+
+        firstScript.parentNode.insertBefore(element, firstScript);
+
+        function makeStub() {
+            var TCF_LOCATOR_NAME = '__tcfapiLocator';
+            var queue = [];
+            var win = window;
+            var cmpFrame;
+
+            function addFrame() {
+                var doc = win.document;
+                var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+                if (!otherCMP) {
+                    if (doc.body) {
+                        var iframe = doc.createElement('iframe');
+
+                        iframe.style.cssText = 'display:none';
+                        iframe.name = TCF_LOCATOR_NAME;
+                        doc.body.appendChild(iframe);
+                    } else {
+                        setTimeout(addFrame, 5);
+                    }
+                }
+                return !otherCMP;
+            }
+
+            function tcfAPIHandler() {
+                var gdprApplies;
+                var args = arguments;
+
+                if (!args.length) {
+                    return queue;
+                } else if (args[0] === 'setGdprApplies') {
+                    if (
+                        args.length > 3 &&
+                        args[2] === 2 &&
+                        typeof args[3] === 'boolean'
+                    ) {
+                        gdprApplies = args[3];
+                        if (typeof args[2] === 'function') {
+                            args[2]('set', true);
+                        }
+                    }
+                } else if (args[0] === 'ping') {
+                    var retr = {
+                        gdprApplies: gdprApplies,
+                        cmpLoaded: false,
+                        cmpStatus: 'stub'
+                    };
+
+                    if (typeof args[2] === 'function') {
+                        args[2](retr);
+                    }
+                } else {
+                    queue.push(args);
+                }
+            }
+
+            function postMessageEventHandler(event) {
+                var msgIsString = typeof event.data === 'string';
+                var json = {};
+
+                try {
+                    if (msgIsString) {
+                        json = JSON.parse(event.data);
+                    } else {
+                        json = event.data;
+                    }
+                } catch (ignore) {}
+
+                var payload = json.__tcfapiCall;
+
+                if (payload) {
+                    window.__tcfapi(
+                        payload.command,
+                        payload.version,
+                        function(retValue, success) {
+                            var returnMsg = {
+                                __tcfapiReturn: {
+                                    returnValue: retValue,
+                                    success: success,
+                                    callId: payload.callId
+                                }
+                            };
+                            if (msgIsString) {
+                                returnMsg = JSON.stringify(returnMsg);
+                            }
+                            event.source.postMessage(returnMsg, '*');
+                        },
+                        payload.parameter
+                    );
+                }
+            }
+
+            while (win) {
+                try {
+                    if (win.frames[TCF_LOCATOR_NAME]) {
+                        cmpFrame = win;
+                        break;
+                    }
+                } catch (ignore) {}
+
+                if (win === window.top) {
+                    break;
+                }
+                win = win.parent;
+            }
+            if (!cmpFrame) {
+                addFrame();
+                win.__tcfapi = tcfAPIHandler;
+                win.addEventListener('message', postMessageEventHandler, false);
+            }
+        };
+
+        if (typeof module !== 'undefined') {
+            module.exports = makeStub;
+        } else {
+            makeStub();
+        }
+
+        var uspStubFunction = function() {
+            var arg = arguments;
+            if (typeof window.__uspapi !== uspStubFunction) {
+                setTimeout(function() {
+                    if (typeof window.__uspapi !== 'undefined') {
+                        window.__uspapi.apply(window.__uspapi, arg);
+                    }
+                }, 500);
+            }
+        };
+
+        var checkIfUspIsReady = function() {
+            uspTries++;
+            if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+                console.warn('USP is not accessible');
+            } else {
+                clearInterval(uspInterval);
+            }
+        };
+
+        if (typeof window.__uspapi === 'undefined') {
+            window.__uspapi = uspStubFunction;
+            var uspInterval = setInterval(checkIfUspIsReady, 6000);
+        }
+
+        window.__tcfapi('addEventListener', 2, function(tcData, listenerSuccess) {
+            if (listenerSuccess) {
+                window.__tcfapi('getConfig',2, function(config) {
+                    if(typeof config.premiumUiLabels.initScreenCustomLinks[0] !== 'undefined' ){
+                        config.premiumUiLabels.initScreenCustomLinks[0].link = 'https://www.legnanonews.com/privacy/';
+                    }
+                    if(typeof config.premiumUiLabels.initScreenCustomLinks[1] !== 'undefined'){
+                        config.premiumUiLabels.initScreenCustomLinks[1].link = 'https://www.legnanonews.com/cookie/';
+                    }
+                    return config;
+                });
+            }
+        });
+
+    })();
+</script>
+<!-- End Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+<!-- Begin style Quantcast Choice -->
+<style>
+    #qc-cmp2-ui {
+        padding: 5px 15px;
+    }
+    #qc-cmp2-ui h2 {
+        font-size: 13px;
+    }
+    #qc-cmp2-ui p {
+        font-size: 11px;
+    }
+    #qc-cmp2-ui .qc-cmp2-summary-buttons button {
+        font-size: 11px;
+    }
+
+    #qc-cmp2-ui .qc-cmp2-close-icon {
+        width: 8px;
+        height: 8px;
+        background-size: 100%;
+    }
+
+    #qc-cmp2-ui .qc-cmp2-close-tooltip {
+        font-size: 10px;
+        padding: 0 5px;
+        line-height: 0.9;
+    }
+
+    @media only screen and (max-width: 768px) {
+        #qc-cmp2-ui {
+            max-height: 300px;
+            position: absolute;
+            bottom: 80px;
+        }
+
+        #qc-cmp2-ui.css-1dnoa76 {
+            max-height: unset;
+            position: relative;
+            bottom: unset;
+        }
+
+        #qc-cmp2-ui h2 {
+            font-size: 13px;
+        }
+        #qc-cmp2-ui p {
+            font-size: 10px;
+        }
+        #qc-cmp2-ui button {
+            font-size: 10px;
+        }
+    }
+</style>
+<!-- End style Quantcast Choice -->
+<!-- END QUANTCAST CHOICE -->
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+    var _qevents = _qevents || [];
+
+    (function() {
+        var elem = document.createElement('script');
+        elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+        elem.async = true;
+        elem.type = "text/javascript";
+        var scpt = document.getElementsByTagName('script')[0];
+        scpt.parentNode.insertBefore(elem, scpt);
+    })();
+
+    _qevents.push({
+        qacct:"p-czQ1ypDmZgwZn"
+    });
+</script>
+
+<noscript>
+    <div style="display:none;">
+        <img src="//pixel.quantserve.com/pixel/p-czQ1ypDmZgwZn.gif" border="0" height="1" width="1" alt="Quantcast"/>
+    </div>
+</noscript>
+<!-- End Quantcast tag -->
+
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '384171475063675');
+    fbq('track', 'PageView');
+</script>
+<noscript>
+    <img height="1" width="1" src="https://www.facebook.com/tr?id=384171475063675&ev=PageView&noscript=1"/>
+</noscript>
+
+
+
+
+
+<link rel="apple-touch-icon" sizes="120x120" href="/wp-content/themes/editheme-child/img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/editheme-child/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/wp-content/themes/editheme-child/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/wp-content/themes/editheme-child/img/favicon/site.webmanifest">
+<link rel="mask-icon" href="/wp-content/themes/editheme-child/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/wp-content/themes/editheme-child/img/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-config" content="/wp-content/themes/editheme-child/img/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+<!--<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<!-- ############# VCONEWS.IT_HEAD_SCRIPT #################### -->
+<script type='text/javascript' src='//adv.presscommtech.com/www/delivery/spcjs.php?id=287'></script>
+<!-- ######### Fine Head Script ################### -->
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="stylesheet" href="https://www.legnanonews.com/wp-content/themes/editheme/css/bootstrap.min.css" type="text/css" media="all" />
+<link rel="stylesheet" href="https://www.legnanonews.com/wp-content/themes/editheme/css/master/topbar.css?ver=1.5.17" type="text/css" media="all" />
+
+
+	<!-- This site is optimized with the Yoast SEO plugin v14.0.4 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="La salute del nostro Pianeta è messa a dura prova – da ormai diversi anni – dalle diverse forme di inquinamento" />
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="https://www.legnanonews.com/altri/2020/12/23/ambiente-e-inquinamento-la-natura-puo-aiutare/963689/" />
+	<meta property="og:locale" content="it_IT" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Ambiente e inquinamento: la natura può aiutare - LegnanoNews" />
+	<meta property="og:description" content="La salute del nostro Pianeta è messa a dura prova – da ormai diversi anni – dalle diverse forme di inquinamento" />
+	<meta property="og:url" content="https://www.legnanonews.com/altri/2020/12/23/ambiente-e-inquinamento-la-natura-puo-aiutare/963689/" />
+	<meta property="og:site_name" content="LegnanoNews" />
+	<meta property="article:published_time" content="2020-12-23T05:00:27+00:00" />
+	<meta property="article:modified_time" content="2020-12-22T16:47:52+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.legnanonews.com/#website","url":"https://www.legnanonews.com/","name":"LegnanoNews","description":"Le news di Legnano e dell&#039;Alto Milanese","potentialAction":[{"@type":"SearchAction","target":"https://www.legnanonews.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"it-IT"},{"@type":"WebPage","@id":"https://www.legnanonews.com/altri/2020/12/23/ambiente-e-inquinamento-la-natura-puo-aiutare/963689/#webpage","url":"https://www.legnanonews.com/altri/2020/12/23/ambiente-e-inquinamento-la-natura-puo-aiutare/963689/","name":"Ambiente e inquinamento: la natura pu\u00f2 aiutare - LegnanoNews","isPartOf":{"@id":"https://www.legnanonews.com/#website"},"datePublished":"2020-12-23T05:00:27+00:00","dateModified":"2020-12-22T16:47:52+00:00","author":{"@id":"https://www.legnanonews.com/#/schema/person/5d8a006394c634a66770eb9d48552d1d"},"description":"La salute del nostro Pianeta \u00e8 messa a dura prova \u2013 da ormai diversi anni \u2013 dalle diverse forme di inquinamento","inLanguage":"it-IT","potentialAction":[{"@type":"ReadAction","target":["https://www.legnanonews.com/altri/2020/12/23/ambiente-e-inquinamento-la-natura-puo-aiutare/963689/"]}]},{"@type":["Person"],"@id":"https://www.legnanonews.com/#/schema/person/5d8a006394c634a66770eb9d48552d1d","name":"divisionebusiness","image":{"@type":"ImageObject","@id":"https://www.legnanonews.com/#personlogo","inLanguage":"it-IT","url":"https://secure.gravatar.com/avatar/b5eff63b6eb1337b5f7c9ad1e19c9dbe?s=96&d=mm&r=g","caption":"divisionebusiness"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.legnanonews.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.12"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='main-style-css'  href='https://www.legnanonews.com/wp-content/themes/editheme/style.css?ver=1651499862' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css'  href='https://www.legnanonews.com/wp-content/themes/editheme-child/css/custom.css?ver=1588673460' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.legnanonews.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4.12' type='text/css' media='all' />
+<link rel='stylesheet' id='elezioni-widget-css'  href='https://www.legnanonews.com/wp-content/plugins/vn-widget-elezioni/assets/css/style.css?ver=1664184767' type='text/css' media='all' />
+<link rel='stylesheet' id='elezioni-widget-bootstrap-css'  href='https://www.legnanonews.com/wp-content/plugins/vn-widget-elezioni/assets/css/bootstrap.min.css?ver=1664144386' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.legnanonews.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://www.legnanonews.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.legnanonews.com/wp-content/themes/editheme-child/js/custom.js?ver=1583254560'></script>
+<script type='text/javascript' src='https://www.legnanonews.com/wp-content/plugins/vn-widget-elezioni/assets/js/progressbar.min.js?ver=1664144386'></script>
+<link rel='https://api.w.org/' href='https://www.legnanonews.com/wp-json/' />
+<link rel='shortlink' href='https://www.legnanonews.com/?p=963689' />
+<link rel="alternate" type="application/json+oembed" href="https://www.legnanonews.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.legnanonews.com%2Faltri%2F2020%2F12%2F23%2Fambiente-e-inquinamento-la-natura-puo-aiutare%2F963689%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.legnanonews.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.legnanonews.com%2Faltri%2F2020%2F12%2F23%2Fambiente-e-inquinamento-la-natura-puo-aiutare%2F963689%2F&#038;format=xml" />
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3912941297156465"
+     crossorigin="anonymous"></script>
+
+<script>
+        (function() {
+            var useSSL = 'https:' == document.location.protocol;
+            var src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+            document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+        })();
+    </script>
+<script type='text/javascript'>
+        googletag.cmd.push(function() {
+
+            googletag.defineSlot('/21928468919/vn_728x90-01', [728, 90], 'div-gpt-ad-vn_728x90-01').addService(googletag.pubads()).setTargeting("sezione", ['altri']).setTargeting("sito","legnanonews.com");
+
+            googletag.defineSlot('/21928468919/vn_300x250-01', [300, 250], 'div-gpt-ad-vn_300x250-01').addService(googletag.pubads()).setTargeting("sezione", ['altri']).setTargeting("sito","legnanonews.com");
+
+                googletag.defineSlot('/21928468919/468x60Matrimoni', [ 468.0 ,  60.0 ], 'div-gpt-ad-468x60Matrimoni').addService(googletag.pubads()).setTargeting("sezione", ['altri']).setTargeting("sito","legnanonews.com");
+
+
+			//            googletag.defineSlot('/5426123/IVG_SINGLE_FOTO', [660, 120], 'div-gpt-ad-1480665281784-0').addService(googletag.pubads()).setTargeting("Sezione", ['//']);
+			
+            googletag.pubads().enableSingleRequest();
+            googletag.pubads().collapseEmptyDivs();
+            googletag.enableServices();
+        });
+    </script>
+
+
+<!-- RICHIESTA GIOVANNELLI 22/02/18  DA RIVEDERE -->
+<script type="text/javascript"> _linkedin_data_partner_id = "251369"; </script><script type="text/javascript"> (function(){var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})(); </script> <noscript> <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=251369&fmt=gif" /> </noscript>
+
+<!--    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+<!--    <script>-->
+<!--        (adsbygoogle = window.adsbygoogle || []).push({-->
+<!--            google_ad_client: "ca-pub-4497435727402902",-->
+<!--            enable_page_level_ads: true-->
+<!--        });-->
+<!--    </script>-->
+
+
+</head>
+<body class="post-template-default single single-post postid-963689 single-format-standard">
+
+
+    <div style="height: 0" class="adunit" id="vn_skin" data-targeting='{"sezione":"altri","sito":"legnanonews.com"}' data-dimensions="10x10"></div>
+    <div style="height: 0" class="adunit" id="vn_intro" data-targeting='{"sezione":"altri","sito":"legnanonews.com"}' data-dimensions="10x10"></div>
+
+<div id="topbar" class="header ">
+  <div class="container-main-menu">
+    <nav role="navigation" class="main-nav">
+      <ul class="main-menu sx-menu">
+        <li id="main-menu-01"><i class="fa fa-list"></i> <a title="Menù" href="#">Menù</a> <b class="fa fa-caret-down"></b>
+           
+<div id="megamenu" class="submenu full"> 
+  <div class="megamenu-col-1">
+
+              <ul class="submenu-01">
+            <li class="menu-item"><a href="/">Prima Pagina</a></li>
+                            <li class="menu-item"><a href="https://www.legnanonews.com/cronaca/">Cronaca</a></li>
+                            <li class="menu-item"><a href="https://www.legnanonews.com/politica/">Politica</a></li>
+                            <li class="menu-item"><a href="https://www.legnanonews.com/economia/">Economia</a></li>
+                            <li class="menu-item"><a href="https://www.legnanonews.com/eventi/">Eventi</a></li>
+                            <li class="menu-item"><a href="https://www.legnanonews.com/lettere_in_redazione/">Lettere in redazione</a></li>
+                            <li class="menu-item"><a href="https://www.legnanonews.com/palio/">Palio</a></li>
+                            <li class="menu-item"><a href="https://www.legnanonews.com/rubriche/">Rubriche</a></li>
+                            <li class="menu-item"><a href="https://www.legnanonews.com/salute/">Salute</a></li>
+                            <li class="menu-item"><a href="https://www.legnanonews.com/scuola/">Scuola</a></li>
+                            <li class="menu-item"><a href="https://www.legnanonews.com/editoriale/">Editoriale</a></li>
+                            <li class="menu-item"><a href="https://www.legnanonews.com/news-24/">News 24</a></li>
+                            <li class="menu-item"><a href="https://www.legnanonews.com/sport/">Sport</a></li>
+            
+        </ul>
+       
+	            <ul class="submenu-02">
+			                    <li class="menu-item"><a href="https://www.legnanonews.com/aree-geografiche/legnano/">Legnano</a></li>
+                                <li class="menu-item"><a href="https://www.legnanonews.com/aree-geografiche/alto_milanese/">Alto Milanese</a></li>
+                                <li class="menu-item"><a href="https://www.legnanonews.com/aree-geografiche/rhodense/">Rhodense</a></li>
+                                <li class="menu-item"><a href="https://www.legnanonews.com/aree-geografiche/varesotto/">Varesotto</a></li>
+                                <li class="menu-item"><a href="https://www.legnanonews.com/aree-geografiche/lombardia/">Lombardia</a></li>
+                                <li class="menu-item"><a href="https://www.legnanonews.com/tutti-i-comuni/">Tutti i comuni</a></li>
+                        </ul>
+	  
+        <ul class="submenu-03">
+
+                            <li class="menu-item"><a href="https://www.legnanonews.com/webtv/">WebTV</a></li>
+            
+	                        <li class="menu-item"><a href="https://www.legnanonews.com/home-photogallery/">Photogallery</a></li>
+	        
+	        
+            
+	                        <li class="menu-item"><a href="https://www.legnanonews.com/notizie-sponsorizzate/">Notizie sponsorizzate</a></li>
+	        
+	                        <li class="menu-item"><a href="https://www.legnanonews.com/meteo/">Meteo</a></li>
+	        
+	                        <li class="menu-item"><a href="https://www.legnanonews.com/articoli-piu-letti/">Articoli più letti</a></li>
+	        
+	                        <li class="menu-item"><a href="https://www.legnanonews.com/home-archivio/">Archivio</a></li>
+	        
+	                        <li class="menu-item"><a href="https://www.varesenews.it/necrologie/">Necrologie</a></li>
+	        
+
+        </ul>
+
+            </div>
+    <div class="megamenu-col-2">
+        		 
+               
+  	<article class="meganews-01">
+         		    <a class="thumb" title="Violenza sessuale di gruppo in un motel a Cornaredo, tre arresti" href="https://www.legnanonews.com/aree-geografiche/rhodense/2022/11/14/violenza-di-gruppo-a-cornaredo-tre-arresti/1048231/">
+      			<figure><img src="https://www.varesenews.it/photogallery_new/images/2022/05/carabinieri-1302231.610x431.jpg" alt="carabinieri"></figure>
+      		</a>
+		               <header> <h4>Cornaredo</h4>           
+            <h2><a title="Violenza sessuale di gruppo in un motel a Cornaredo, tre arresti" href="https://www.legnanonews.com/aree-geografiche/rhodense/2022/11/14/violenza-di-gruppo-a-cornaredo-tre-arresti/1048231/">Violenza sessuale di gruppo in un motel a Cornaredo, tre arresti</a> 
+            </h2>
+      </header>
+    </article>
+    
+    
+ 
+        		 
+               
+  	<article class="meganews-01">
+         		    <a class="thumb" title="Alla Nuova Terra di Legnano la biografia di Felice Musazzi" href="https://www.legnanonews.com/aree-geografiche/legnano/2022/11/14/alla-nuova-terra-di-legnano-la-biografia-di-felice-musazzi/1048229/">
+      			<figure><img src="https://www.varesenews.it/photogallery_new/images/2022/11/generico-14-nov-2022-1351958.610x431.jpg" alt="Generico 14 Nov 2022"></figure>
+      		</a>
+		               <header> <h4>Presentazione libro</h4>           
+            <h2><a title="Alla Nuova Terra di Legnano la biografia di Felice Musazzi" href="https://www.legnanonews.com/aree-geografiche/legnano/2022/11/14/alla-nuova-terra-di-legnano-la-biografia-di-felice-musazzi/1048229/">Alla Nuova Terra di Legnano la biografia di Felice Musazzi</a> 
+            </h2>
+      </header>
+    </article>
+    
+    
+ 
+        		 
+               
+  	<article class="meganews-01">
+         		    <a class="thumb" title="Tariffa puntuale al via nell&#8217;Oltresempione 5, incontro pubblico per presentare le novità ai cittadini" href="https://www.legnanonews.com/aree-geografiche/legnano/2022/11/14/tariffa-puntuale-al-via-nelloltresempione-5-incontro-pubblico-per-presentare-le-novita-ai-cittadini/1048191/">
+      			<figure><img src="https://www.varesenews.it/photogallery_new/images/2022/11/generico-14-nov-2022-1351876.610x431.jpg" alt="Generico 14 Nov 2022"></figure>
+      		</a>
+		               <header> <h4>Tariffa Puntuale</h4>           
+            <h2><a title="Tariffa puntuale al via nell&#8217;Oltresempione 5, incontro pubblico per presentare le novità ai cittadini" href="https://www.legnanonews.com/aree-geografiche/legnano/2022/11/14/tariffa-puntuale-al-via-nelloltresempione-5-incontro-pubblico-per-presentare-le-novita-ai-cittadini/1048191/">Tariffa puntuale al via nell&#8217;Oltresempione 5, incontro pubblico per presentare le novità ai cittadini</a> 
+            </h2>
+      </header>
+    </article>
+    
+    
+ 
+      </div>
+    <div class="megamenu-col-3">
+   
+        	  
+  	<article class="meganews-01">
+         		    <a class="thumb" title="&#8220;Pizzoccherata&#8221; alla Contrada di Sant&#8217;Ambrogio" href="https://www.legnanonews.com/photogallery/pizzoccherata-alla-contrada-di-santambrogio/">
+      			<figure><img src="https://www.varesenews.it/photogallery_new/images/2022/11/pizzoccherata-alla-contrada-di-sant-ambrogio-1351954.610x431.jpg"></figure>
+      		</a>
+		               <header>            
+            <h2><a title="&#8220;Pizzoccherata&#8221; alla Contrada di Sant&#8217;Ambrogio" href="https://www.legnanonews.com/photogallery/pizzoccherata-alla-contrada-di-santambrogio/">&#8220;Pizzoccherata&#8221; alla Contrada di Sant&#8217;Ambrogio</a> 
+            </h2>
+      </header>
+    </article>
+    
+    
+ 
+      </div>
+    <div class="megamenu-col-2">
+        		  
+  	<article class="meganews-01">
+         		    <a class="thumb" title="La Valtellina fa il pienone a Sant&#8217;Ambrogio con la pizzoccherata" href="https://www.legnanonews.com/aree-geografiche/legnano/2022/11/14/la-valtellina-fa-il-pienone-a-santambrogio-con-la-pizzoccherata/1048222/">
+      			<figure><img src="https://www.varesenews.it/photogallery_new/images/2022/11/pizzoccherata-alla-contrada-di-sant-ambrogio-1351953.610x431.jpg" alt="&quot;Pizzoccherata&quot; alla Contrada di Sant'Ambrogio"></figure>
+      		</a>
+		               <header> <h4>Contrada Sant'Ambrogio</h4>           
+            <h2><a title="La Valtellina fa il pienone a Sant&#8217;Ambrogio con la pizzoccherata" href="https://www.legnanonews.com/aree-geografiche/legnano/2022/11/14/la-valtellina-fa-il-pienone-a-santambrogio-con-la-pizzoccherata/1048222/">La Valtellina fa il pienone a Sant&#8217;Ambrogio con la pizzoccherata</a> 
+            </h2>
+      </header>
+    </article>
+    
+    
+ 
+        		  
+  	<article class="meganews-01">
+         		    <a class="thumb" title="Il Tennistavolo Parabiago vincitore in serie C2 regionale e sconfitto in serie D3 provinciale" href="https://www.legnanonews.com/altri/2022/11/14/il-tennistavolo-parabiago-vincitore-in-serie-c2-regionale-e-sconfitto-in-serie-d3-provinciale/1048208/">
+      			<figure><img src="https://www.varesenews.it/photogallery_new/images/2016/02/tennistavolo-pingpong-generiche-513282.610x431.jpg" alt="tennistavolo pingpong generiche"></figure>
+      		</a>
+		               <header> <h4>Sport</h4>           
+            <h2><a title="Il Tennistavolo Parabiago vincitore in serie C2 regionale e sconfitto in serie D3 provinciale" href="https://www.legnanonews.com/altri/2022/11/14/il-tennistavolo-parabiago-vincitore-in-serie-c2-regionale-e-sconfitto-in-serie-d3-provinciale/1048208/">Il Tennistavolo Parabiago vincitore in serie C2 regionale e sconfitto in serie D3 provinciale</a> 
+            </h2>
+      </header>
+    </article>
+    
+    
+ 
+        		  
+  	<article class="meganews-01">
+         		    <a class="thumb" title="Lorenzo Colombo sfiora il podio nell&#8217;ultima gara del Mondiale Endurance 2022" href="https://www.legnanonews.com/sport/2022/11/14/lorenzo-colombo-sfiora-il-podio-nellultima-gara-del-mondiale-endurance-2022/1048192/">
+      			<figure><img src="https://www.varesenews.it/photogallery_new/images/2022/11/lorenzo-colombo-automobilismo-pilota-wec-1351894.610x431.jpg" alt="lorenzo colombo automobilismo pilota wec"></figure>
+      		</a>
+		               <header> <h4>Automobilismo</h4>           
+            <h2><a title="Lorenzo Colombo sfiora il podio nell&#8217;ultima gara del Mondiale Endurance 2022" href="https://www.legnanonews.com/sport/2022/11/14/lorenzo-colombo-sfiora-il-podio-nellultima-gara-del-mondiale-endurance-2022/1048192/">Lorenzo Colombo sfiora il podio nell&#8217;ultima gara del Mondiale Endurance 2022</a> 
+            </h2>
+      </header>
+    </article>
+    
+    
+ 
+      </div>
+    <div class="megamenu-col-3">
+    
+        	  
+  	<article class="meganews-01">
+         		    <a class="thumb" title="Palio di Legnano &#8211; Investitura religiosa della reggenza della contrada San Martino" href="https://www.legnanonews.com/video/palio-di-legnano-investitura-religiosa-della-reggenza-della-contrada-san-martino/">
+      			<figure><img alt="" src="https://img.youtube.com/vi/SqZUWLP7il0/0.jpg"></figure>
+      		</a>
+		               <header>            
+            <h2><a title="Palio di Legnano &#8211; Investitura religiosa della reggenza della contrada San Martino" href="https://www.legnanonews.com/video/palio-di-legnano-investitura-religiosa-della-reggenza-della-contrada-san-martino/">Palio di Legnano &#8211; Investitura religiosa della reggenza della contrada San Martino</a> 
+            </h2>
+      </header>
+    </article>
+    
+    
+ 
+      </div>
+</div>
+        </li>
+                <li id="main-menu-99"><a title="Legnano" href="https://www.legnanonews.com/aree-geografiche/legnano/">Legnano</a> </li>
+
+        <li id="main-menu-13"> <a>Territori</a> <b class="fa fa-caret-down"></b>
+          <div id="comunimenu" class="submenu full">
+              
+                  <div id="sub-cercamenu-01">
+
+                      <h5><a title="Legnano" href="https://www.legnanonews.com/aree-geografiche/legnano/">Legnano </a></h5>
+                      
+                  </div>
+
+              
+                  <div id="sub-cercamenu-02">
+
+                      <h5><a title="Alto Milanese" href="https://www.legnanonews.com/aree-geografiche/alto_milanese/">Alto Milanese </a></h5>
+                                                <ul>
+                                                            <li>
+                                      <a title="Busto Garolfo" href="https://www.legnanonews.com/citta/busto_garolfo/">Busto Garolfo</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Canegrate" href="https://www.legnanonews.com/citta/canegrate/">Canegrate</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Cerro Maggiore" href="https://www.legnanonews.com/citta/cerro_maggiore/">Cerro Maggiore</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Dairago" href="https://www.legnanonews.com/citta/dairago/">Dairago</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Nerviano" href="https://www.legnanonews.com/citta/nerviano/">Nerviano</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Parabiago" href="https://www.legnanonews.com/citta/parabiago/">Parabiago</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Rescaldina" href="https://www.legnanonews.com/citta/rescaldina/">Rescaldina</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="San Vittore Olona" href="https://www.legnanonews.com/citta/san_vittore_olona/">San Vittore Olona</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="San Giorgio su Legnano" href="https://www.legnanonews.com/citta/san_giorgio_su_legnano/">San Giorgio su Legnano</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Villa Cortese" href="https://www.legnanonews.com/citta/villa_cortese/">Villa Cortese</a>
+                                  </li>
+	                                                        <li class="tutti-i-comuni"><a title="Tutti i comuni" href="https://www.legnanonews.com/aree-geografiche/alto_milanese/">Tutti i comuni</a></li>
+                          </ul>
+                      
+                  </div>
+
+              
+                  <div id="sub-cercamenu-03">
+
+                      <h5><a title="Rhodense" href="https://www.legnanonews.com/aree-geografiche/rhodense/">Rhodense </a></h5>
+                                                <ul>
+                                                            <li>
+                                      <a title="Arese" href="https://www.legnanonews.com/citta/arese/">Arese</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Baranzate" href="https://www.legnanonews.com/citta/baranzate/">Baranzate</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Bollate" href="https://www.legnanonews.com/citta/bollate/">Bollate</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Lainate" href="https://www.legnanonews.com/citta/lainate/">Lainate</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Pero" href="https://www.legnanonews.com/citta/pero/">Pero</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Pogliano Milanese" href="https://www.legnanonews.com/citta/pogliano_milanese/">Pogliano Milanese</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Pregnana Milanese" href="https://www.legnanonews.com/citta/pregnana_milanese/">Pregnana Milanese</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Rho" href="https://www.legnanonews.com/citta/rho/">Rho</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Vanzago" href="https://www.legnanonews.com/citta/vanzago/">Vanzago</a>
+                                  </li>
+	                                                        <li class="tutti-i-comuni"><a title="Tutti i comuni" href="https://www.legnanonews.com/aree-geografiche/rhodense/">Tutti i comuni</a></li>
+                          </ul>
+                      
+                  </div>
+
+              
+                  <div id="sub-cercamenu-04">
+
+                      <h5><a title="Varesotto" href="https://www.legnanonews.com/aree-geografiche/varesotto/">Varesotto </a></h5>
+                                                <ul>
+                                                            <li>
+                                      <a title="Busto Arsizio" href="https://www.legnanonews.com/citta/busto_arsizio/">Busto Arsizio</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Caronno Pertusella" href="https://www.legnanonews.com/citta/caronno-pertusella/">Caronno Pertusella</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Castellanza" href="https://www.legnanonews.com/citta/castellanza/">Castellanza</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Fagnano Olona" href="https://www.legnanonews.com/citta/fagnano-olona/">Fagnano Olona</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Marnate" href="https://www.legnanonews.com/citta/marnate/">Marnate</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Olgiate Olona" href="https://www.legnanonews.com/citta/olgiate-olona/">Olgiate Olona</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Origgio" href="https://www.legnanonews.com/citta/origgio/">Origgio</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Saronno" href="https://www.legnanonews.com/citta/saronno/">Saronno</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Solbiate Olona" href="https://www.legnanonews.com/citta/solbiate-olona/">Solbiate Olona</a>
+                                  </li>
+	                                                            <li>
+                                      <a title="Uboldo" href="https://www.legnanonews.com/citta/uboldo/">Uboldo</a>
+                                  </li>
+	                                                        <li class="tutti-i-comuni"><a title="Tutti i comuni" href="https://www.legnanonews.com/aree-geografiche/varesotto/">Tutti i comuni</a></li>
+                          </ul>
+                      
+                  </div>
+
+              
+                  <div id="sub-cercamenu-05">
+
+                      <h5><a title="Lombardia" href="https://www.legnanonews.com/aree-geografiche/lombardia/">Lombardia </a></h5>
+                                                <ul>
+                                                            <li>
+                                      <a title="Milano" href="https://www.legnanonews.com/citta/milano/">Milano</a>
+                                  </li>
+	                                                        <li class="tutti-i-comuni"><a title="Tutti i comuni" href="https://www.legnanonews.com/aree-geografiche/lombardia/">Tutti i comuni</a></li>
+                          </ul>
+                      
+                  </div>
+
+              
+	          
+<!--<div id="sub-cercamenu-10">-->
+<!--	<h5><a title="" href=""> </a></h5>-->
+<!--	<ul>-->
+<!--		<li><a title="" href=""></a></li>-->
+<!--		<li class="tutti-i-comuni"><a title="Tutti i comuni" href="">Tutti i comuni</a></li>-->
+<!--	</ul>-->
+<!--</div>-->
+
+          </div>
+        </li>
+          <!--PALIO-->
+<li id="main-menu-20"> <a title="Palio"  href="https://www.legnanonews.com/home-palio/" >Palio</a> </li>
+<li id="main-menu-21"> <a title="Eventi"  href="https://www.legnanonews.com/eventi/" >Eventi</a> </li>
+<li id="main-menu-22"> <a title="Sport"  href="https://www.legnanonews.com/sport/" >Sport</a> </li>
+
+
+                    <li id="main-menu-9"> <a title="Varese News" target="_blank"  href="https://www.varesenews.it/" >VN</a> </li>
+        
+        <li id="main-menu-10"> <a title="News24"  href="https://www.legnanonews.com/news-24/" >News24</a> </li>
+      </ul>
+      <span  class="today topbar-today"> </span>
+      <ul class="main-menu dx-menu">
+        <!-- <li id="main-menu-11"> <a  href="" >Servizi</a> <b class="fa fa-caret-down"></b>
+          <div id="servizimenu" class="submenu social-row"> 
+                          <ul>
+                <li><a target="_blank" href="https://www.varesenews.it/servizi/redirect/sea.htm">Voli</a></li>
+                <li><a target="_blank" href="https://www.autostrade.it/it/home">Autostrade</a></li>
+                <li><a target="_blank" href="http://www.varese.federfarma.it/Home/Servizi-al-cittadino/farmacie-orari-turni-e-ferie.aspx">Farmacie</a></li>
+                <li><a target="_blank" href="https://www.trenord.it/it/home.aspx">Trenord</a></li>
+                <li><a target="_blank" href="https://www.trenitalia.com/">Ferrovie dello stato</a></li>
+                <li><a target="_blank" href="http://www.navigazionelaghi.it/ita/m_illago.html">Navigazione Laghi</a></li>
+                <li><a target="_blank" href="http://www.crs.regione.lombardia.it/ds/Satellite?c=Page&amp;childpagename=CRS%2FCRSHomeLayout&amp;cid=1213346611964&amp;pagename=CRSWrapper">Prenotazioni Sanitarie</a></li>
+                <li><a target="_blank" href="http://www.sanita.regione.lombardia.it/cs/Satellite?c=Redazionale_P&amp;childpagename=DG_Sanita%2FDetail&amp;cid=1213282352604&amp;pagename=DG_SANWrapper">Aziende Ospedaliere</a></li>
+            </ul>  
+          </div>
+        </li> -->
+        <li id="main-menu-12"> <a title="Meteo"  href="https://www.legnanonews.com/meteo/" >Meteo</a> <img src="/wp-content/themes/editheme/img/weather.png" > </li>
+        <li id="main-menu-04"><a href="#">Cerca </a> <i class="fa fa-search"></i>
+          <div id="cercamenu" class="submenu full">
+            <div id="sub-cercamenu-01">
+              <form action="/" method="get">
+                <h5>Cerca nel sito</h5>
+                <input type="text" name="s" class="form-control" onClick="this.value=''" value="Per esempio: Legnano">
+                <input type="hidden" name="post_type" value="post" >
+                <input type="submit" class="btn" value="Cerca">
+              </form>
+            </div>
+            <div id="sub-cercamenu-02">
+              <form method="get" name="searchbydate" action="/">
+                <h5>Cerca per data</h5>
+                <select class="form-control campodata" name="giorno">
+                  <option value="01" selected="selected">Giorno</option>
+                  <option value="01">01</option>
+                  <option value="02">02</option>
+                  <option value="03">03</option>
+                  <option value="04">04</option>
+                  <option value="05">05</option>
+                  <option value="06">06</option>
+                  <option value="07">07</option>
+                  <option value="08">08</option>
+                  <option value="09">09</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                  <option value="25">25</option>
+                  <option value="26">26</option>
+                  <option value="27">27</option>
+                  <option value="28">28</option>
+                  <option value="29">29</option>
+                  <option value="30">30</option>
+                  <option value="31">31</option>
+                </select>
+                <select class="form-control campodata" name="monthnum">
+                  <option value="01" selected="selected">Mese</option>
+                  <option value="01">Gennaio</option>
+                  <option value="02">Febbraio</option>
+                  <option value="03">Marzo</option>
+                  <option value="04">Aprile</option>
+                  <option value="05">Maggio</option>
+                  <option value="06">Giugno</option>
+                  <option value="07">Luglio</option>
+                  <option value="08">Agosto</option>
+                  <option value="09">Settembre</option>
+                  <option value="10">Ottobre</option>
+                  <option value="11">Novembre</option>
+                  <option value="12">Dicembre</option>
+                </select>
+                <select class="form-control campodata anno-select" name="year">
+                  <option value="2019">2019</option>
+                  <option value="2018">2018</option>
+                  <option value="2017">2017</option>
+                  <option value="2016">2016</option>
+                  <option value="2015">2015</option>
+                  <option value="2014">2014</option>
+                  <option value="2013">2013</option>
+                  <option value="2012">2012</option>
+                  <option value="2011">2011</option>
+                  <option value="2010">2010</option>
+                  <option value="2009">2009</option>
+                  <option value="2008">2008</option>
+                </select>
+                <input type="button" class="btn" value="Cerca per Data" onClick="javascript:window.document.location.href='/' + year.value + '/' + monthnum.value + '/' + giorno.value + '/';">
+              </form>
+            </div>
+            <div id="sub-cercamenu-03">
+              <form  action="/" name="searchby" method="get">
+                <h5>Cerca per città</h5>
+                <select name="cercacitta" class="form-control">
+                                                      <option value="legnano">Legnano   </option>
+                                    <option value="parabiago">Parabiago   </option>
+                                    <option value="busto_arsizio">Busto Arsizio   </option>
+                                    <option value="castellanza">Castellanza   </option>
+                                    <option value="cerro_maggiore">Cerro Maggiore   </option>
+                                    <option value="canegrate">Canegrate   </option>
+                                    <option value="nerviano">Nerviano   </option>
+                                    <option value="rho">Rho   </option>
+                                    <option value="san_vittore_olona">San Vittore Olona   </option>
+                                    <option value="rescaldina">Rescaldina   </option>
+                                    <option value="busto_garolfo">Busto Garolfo   </option>
+                                    <option value="san_giorgio_su_legnano">San Giorgio su Legnano   </option>
+                                    <option value="villa_cortese">Villa Cortese   </option>
+                                    <option value="milano">Milano   </option>
+                                    <option value="lainate">Lainate   </option>
+                                    <option value="bollate">Bollate   </option>
+                                    <option value="dairago">Dairago   </option>
+                                    <option value="arese">Arese   </option>
+                                    <option value="vanzago">Vanzago   </option>
+                                    <option value="pregnana_milanese">Pregnana Milanese   </option>
+                                    <option value="varese">Varese   </option>
+                                    <option value="pero">Pero   </option>
+                                    <option value="gallarate">Gallarate   </option>
+                                    <option value="pogliano_milanese">Pogliano Milanese   </option>
+                                    <option value="arconate">Arconate   </option>
+                                    <option value="magenta">Magenta   </option>
+                                    <option value="roma">Roma   </option>
+                                    <option value="inveruno">Inveruno   </option>
+                                    <option value="casorezzo">Casorezzo   </option>
+                                    <option value="castano-primo">Castano Primo   </option>
+                                    <option value="cuggiono">Cuggiono   </option>
+                                    <option value="saronno">Saronno   </option>
+                                    <option value="garbagnate-milanese">Garbagnate Milanese   </option>
+                                    <option value="vanzaghello">Vanzaghello   </option>
+                                    <option value="abbiategrasso">Abbiategrasso   </option>
+                                    <option value="turbigo">Turbigo   </option>
+                                    <option value="olgiate-olona">Olgiate Olona   </option>
+                                    <option value="magnago">Magnago   </option>
+                                    <option value="buscate">Buscate   </option>
+                                    <option value="uboldo">Uboldo   </option>
+                                    <option value="marnate">Marnate   </option>
+                                  </select>
+                <input type="button" class="btn" value="Cerca per Citt&aacute;" onClick="javascript:window.document.location.href='/citta/' + cercacitta.value + '/';">
+              </form>
+            </div>
+          </div>
+        </li>
+        <li id="main-menu-05"><a>Seguici su</a> <i class="fa fa-facebook fa-social"></i> <i class="fa fa-twitter fa-social"></i>   <i class="fa fa-rss  fa-social"> </i>
+          <div id="socialmenu" class="submenu social-row">
+            <ul>
+                              <li class="facebook"><a title="Facebook" target="_blank" href="https://www.facebook.com/legnanonews/"><span><i class="fa fa-facebook"></i> </span>
+                <p>Seguici su Facebook</p>
+                </a></li>
+                
+	                          <li class="twitter"><a title="Twitter" target="_blank" href="https://twitter.com/legnanonews"><span><i class="fa fa-twitter"></i></span>
+                <p>Seguici su Twitter</p>
+                </a></li>
+                
+	                                <li class="instagram"><a title="Instagram" target="_blank" href="https://www.instagram.com/legnanonews/"><span><i class="fa fa-instagram"></i></span>
+                            <p>Seguici su Instagram</p>
+                        </a></li>
+	            
+	                            <li class="rss"><a title="Feed" href="/feed/news24/"><span><i class="fa fa-rss"></i></span>
+                <p>Feed RSS</p>
+                </a></li>
+                            </ul>
+          </div>
+        </li>
+        <li id="main-menu-06"> <a class="user-menu-link" title="Accedi" href="">Accedi</a>
+          <div id="profilemenu" class="submenu full unlogged">
+            <div id="sub-profilemenu-01">
+              <div class="row profile registration-info">
+                <table>
+                  <tr class="wrap-nickname">
+                    <td>Nickname</td>
+                    <td class="nickname"></td>
+                  </tr>
+                  <tr class="wrap-eta">
+                    <td>Età</td>
+                    <td class="eta"></td>
+                  </tr>
+                  <tr class="wrap-residenza">
+                    <td>Residenza</td>
+                    <td class="residenza"></td>
+                  </tr>
+                </table>
+                <div class="action"> 
+                	<a title="Invia una notizia" href="https://www.varesenews.it/invia-contributo?satellite=www-legnanonews-com&amp;returnSite=www.legnanonews.com" class="btn">Invia una notizia</a>
+                	<a title="Guarda Profilo" href="#" class="btn go-to-profile">Guarda Profilo</a> 
+                	<a title="Logout" href="https://www.legnanonews.com/wp-login.php?action=logout&amp;redirect_to=https%3A%2F%2Fwww.legnanonews.com%2Faltri%2F2020%2F12%2F23%2Fambiente-e-inquinamento-la-natura-puo-aiutare%2F963689%2F&amp;_wpnonce=0ae658ac98" class="btn">Logout</a> 
+                </div>
+              </div>
+              <div class="row profile registration-box">
+                <h3 class="title">Accedi a servizi online</h3>
+                <a title="Accedi con le tue credenziali" href="https://www.varesenews.it/wp-login.php?action=fedlogin&amp;reauth=0&amp;returnSite=www.legnanonews.com" class="btn">Accedi</a> </div>
+            </div>
+            <div id="sub-profilemenu-02" class="inviacontributo">
+              <div class="row profile">
+                <h3 class="title">Registrati a legnanonews.com</h3>
+                <div class="services">
+                  <p><i class="fa fa-star"></i> Seguire le news della tua città</p>
+                  <p><i class="fa fa-paper-plane"></i> Segnalare notizie ed eventi</p>
+                  <p><i class="fa fa-thumbs-up"></i> Commentare gli articoli di LegnanoNews</p>
+                </div>
+                <a title="Registrati" href="https://www.varesenews.it/registrati/?&amp;returnSite=www.legnanonews.com" class="btn">Registrati</a> </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<div class="big-container">
+<div class="clr"></div>
+<header id="wrap-header" class="non-home">
+   <div class="row top-bar"><!--<div style=" margin: 0 auto 10px auto;   width: 728px; height: 90px" class="adunit" id="vn_728x90-01" data-targeting='{"sezione":"--><!--"}' data-dimensions="728x90"></div>-->
+
+
+<div id='div-gpt-ad-vn_728x90-01' class="edibanner" style='height:90px; width:728px;  margin: 0 auto 10px auto;'>
+<script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-vn_728x90-01'); });
+</script>
+</div>
+</div>
+  
+    
+  <div class="row testata"> <a class="back-to-home" title="Torna in Homepage di LegnanoNews" href="/"><img alt="LegnanoNews" src="https://www.legnanonews.com/wp-content/uploads/2020/05/logo-legnano-mini-1.png"></a>
+        <h1><a data-test="1" title="Altre news" href="https://www.legnanonews.com/altri/">Altre news</a></h1>
+    
+<!--	  -->          <div class="banner banner-testata">
+                <!-- SELF-SPONSOR-TOP1 468x60  -->
+          </div>
+	    </div>
+</header>
+            <div class="row banner big-banner">
+          <div style="  margin:   10px auto;  width: 970px; height: 250px" class="adunit" id="vn_980x250-post" data-targeting='{"sezione":"altri","sito":"legnanonews.com"}' data-dimensions="970x250"></div>
+        </div>
+
+<div  class="single-content">
+
+
+  <div id="wrap-content">
+    
+        <article class="body-text" itemscope="" itemtype="https://schema.org/Article">
+
+	    
+      <meta itemprop="articleSection" content="">
+            <div class="row social-bar">
+        <h3>Utilità</h3>
+      </div>
+      
+        
+
+
+
+      <h1 class="title" itemprop="headline name">
+        Ambiente e inquinamento: la natura può aiutare      </h1>
+            <h3 class="occhiello" itemprop="description">La salute del nostro Pianeta è messa a dura prova – da ormai diversi anni – dalle diverse forme di inquinamento</h3>
+                  <div class="banner article-banner">
+
+<!--        AGGIUNTO SU RICHIESTA DI MANUEL DEL 08/03/2018  -->
+
+        <div style=" margin: 10px auto; width: 468px; height: 60px" class="adunit" id="VN-468x60-01" data-targeting='{"sezione":"altri","sito":"legnanonews.com"}' data-dimensions="468x60"></div>
+
+      </div>
+                    <div class="row article-tag-01">
+        <ul class="wrap-tags tags">
+          <li><i class="fa fa-tag"></i><a href="https://www.legnanonews.com/tag/ambiente/" rel="tag">ambiente</a></li><li><i class="fa fa-tag"></i><a href="https://www.legnanonews.com/tag/servizio/" rel="tag">servizio</a></li>           		                    </ul>
+        <ul class="actions">
+          <li><a href="#" title="Stampa questa pagina" onclick="window.print();return false"><i class="fa fa-print"></i> </a></li>
+          <li><a title="Scarica questo pagina in PDF" rel="noindex,nofollow" href="https://www.legnanonews.com/altri/2020/12/23/ambiente-e-inquinamento-la-natura-puo-aiutare/963689/?format=pdf"><i class="fa fa-download"></i></a></li>
+                                        <li><a id="go-to-comment" title="Commenta questo articolo" href="#"><i class="fa fa-comment"></i></a></li>
+                  </ul>
+      </div>
+            <div id="post-entry">
+
+          
+
+
+        <div class="social-column">
+	<ul>
+		<li><a title="Condividi su Facebook" class="badge-share badge-share-facebook"  data-share="https://www.legnanonews.com/altri/2020/12/23/ambiente-e-inquinamento-la-natura-puo-aiutare/963689/"  href="javascript:void(0);" role="button"><span><i class="fa fa-facebook"></i></span></a></li>
+		<li><a title="Condividi su Twitter" class="badge-share badge-share-twitter"  data-share="https://www.legnanonews.com/altri/2020/12/23/ambiente-e-inquinamento-la-natura-puo-aiutare/963689/" data-shortlink="https://www.legnanonews.com/?p=963689" data-title="Ambiente e inquinamento: la natura può aiutare"  href="javascript:void(0);" role="button"><span><i class="fa fa-twitter"></i></span></a></li>
+		<li><a title="Condividi su Linkedin" class="badge-share badge-share-linkedin"  data-share="https://www.legnanonews.com/altri/2020/12/23/ambiente-e-inquinamento-la-natura-puo-aiutare/963689/" href="javascript:void(0);" role="button"><span><i class="fa fa-linkedin"></i></span></a></li>
+		<li><a title="Condividi su Pinterest" class="badge-share badge-share-pinterest" data-media="https://www.varesenews.it/photogallery_new/images/2020/12/vario-1194711.610x431.jpg"  data-share="https://www.legnanonews.com/altri/2020/12/23/ambiente-e-inquinamento-la-natura-puo-aiutare/963689/" data-title="Ambiente e inquinamento: la natura può aiutare" href="javascript:void(0);" role="button"><span><i class="fa fa-pinterest"></i></span></a></li>
+		<li><a class="badge-share-envelope" title="Invia per email" href="mailto:?subject=Ti suggerisco questo articolo:Ambiente e inquinamento: la natura può aiutare&amp;body=Clicca qui per leggerlo: https://www.legnanonews.com/altri/2020/12/23/ambiente-e-inquinamento-la-natura-puo-aiutare/963689/"><span><i class="fa fa-envelope"></i></span></a></li>
+	</ul>
+</div>
+
+          <div id="entry">
+
+                                                  <img src="https://www.varesenews.it/photogallery_new/images/2020/12/vario-1194711.610x431.jpg" alt="ambiente">                                        
+           
+            <!-- <EdIndex> -->
+          <!-- COUNT CONTENT: 8 --><p>La salute del nostro Pianeta è messa a dura prova – da ormai diversi anni – dalle diverse forme di inquinamento. Non a caso negli ultimi anni sono state tante le iniziative poste in essere per diminuire il tasso di inquinamento, come per esempio con la <a href="https://www.senato.it/2847?categoria=119&amp;voce_sommario=68" target="_blank" rel="noopener noreferrer">Conferenza dell’Onu sul clima del 2017 (COP 23)</a> che aveva allarmato il mondo e ispirato all’unione in una riconfermata (ma quanto mai urgente) lotta all’inquinamento. Era infatti chiara l’urgenza di ridurre drasticamente le emissioni di CO2. Dopo quella conferenza l’Italia aveva subito reagito aderendo all’Alleanza globale per lo stop al carbone e prevedendo la fine del suo utilizzo entro il 2025. Cina e India avevano dato il loro consenso, mentre l’America aveva creato scompiglio.</p>
+                      
+            
+
+                       
+<p>Dopo qualche anno lo scenario è parzialmente cambiato ed il nostro Paese si fa esempio e modello da seguire nel campo della sostenibilità ambientale. Una visione lungimirante se si pensa che in un futuro non molto lontano la capacità di mantenere un basso tasso di inquinamento diventerà un fattore di alta competitività tra i Paesi e le varie imprese.</p>
+                                          
+            
+
+                       
+<p>Quel che preoccupa, però, non è soltanto l’inquinamento atmosferico. Piuttosto grande attenzione va data alla questione relativa all’inquinamento dei terreni, soprattutto quelli destinati all’agricoltura. In questo scenario esistono diverse piante che possono aiutare a mitigare l’inquinamento.</p>
+                      
+                            
+
+<!--                <script type="text/javascript" class="teads" async="true" src="//a.teads.tv/page/90118/tag"></script>-->
+
+
+            
+
+                       
+<p>Un esempio su tutti è rappresentato dalla canapa, molto apprezzata per i suoi oli essenziali come quelli presenti su <a href="https://www.cibdol.it/" target="_blank" rel="noopener noreferrer">Cibdol</a> e che viene utilizzata per bonificare i terreni. La canapa, come ampiamente documentato nella letteratura scientifica, è capace di assorbire i metalli pesanti in modo efficace e – a differenza delle piante iperaccumulatrici, che hanno uno sviluppo vegetativo molto modesto – può essere utilizzata in diversi ambiti compatibili, principalmente per alcuni usi industriali e per la produzione di energia.</p>
+                      
+            
+
+                       
+<p>Questo grazie ad un apparato radicale molto sviluppato e profondo, associato a una vasta capacità di assorbimento. Sono proprio le radici della pianta di canapa a renderla ottimale per bonificare i terreni inquinati, proprio perché assorbe molte più sostanze rispetto ad altre specie vegetali. Da differenti studi internazionali si evince come la pianta sia in grado di accumulare nichel, piombo, cadmio nelle foglie e non nella fibra.</p>
+                      
+            
+
+                       
+<p>Ma sono tante le piante che possono aiutare in caso di bonifica. Il salice, ad esempio, grazie alla fitodepurazione può essere utilizzato per ripristinare la fertilità dei terreni con un’alta acidità, o di quelli contaminati da attività minerarie e discariche. Gli esperimenti sono stati condotti nella miniera finlandese di Pyhäjärvi e di quella russa di Kostomuksha. “Alla luce dei risultati ottenuti fino ad ora, possiamo anticipare che i salici possono ripulire il terreno dallo zinco in 6 anni, dal nichel in 10 e da cromo e rame in 15-50 in condizioni favorevoli” ha dichiarato Aki Villa, ricercatore della University of Eastern Finland.</p>
+                      
+            
+
+                       
+<p>Queste piante possono crescere anche in zone con un’alta acidità e in terreni contaminate con metalli pesanti, come rame, zinco, nichel, cromo o piombo.</p>
+                      
+            
+
+                       
+                      
+            
+
+                       
+          
+           <!-- </EdIndex> -->
+                    <div class="row meta">
+
+	          
+              
+              <div class="auhtor no-post"> <span class="title">di
+                                    <a rel="author" title="Redazione" href="https://www.legnanonews.com/ambiente-e-inquinamento-la-natura-puo-aiutare/">Redazione</a> </span> <span>redazione@varesenews.it</span>
+		                        </div>
+
+            <div class="publish-date"> <span class="date">Pubblicato il
+              23 Dicembre 2020              </span> </div>
+          </div>
+	                  </div>
+        <div class="clr"></div>
+        <div class="row social-bar">
+          <div id="social-bar">
+            <div class="fb-like" data-href="https://www.legnanonews.com/altri/2020/12/23/ambiente-e-inquinamento-la-natura-puo-aiutare/963689/" data-layout="button_count" data-action="recommend" data-show-faces="false" data-share="true"></div>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-via="varesenews">Tweet</a>
+            <div class="g-plusone"></div>
+          </div>
+        </div>
+
+	      
+              <!-- SELF-IN-READ-DESKTOP -->
+
+	      
+                <a class="read-more-comment" href="#comment-area">Leggi i commenti</a>
+        
+
+                  <div class="clr"></div>
+                                <div class="row article-tag-02">
+                    <h4>TAG ARTICOLO</h4>
+          <ul class="tags"><li><a href="https://www.legnanonews.com/tag/ambiente/" rel="tag">ambiente</a></li><li><a href="https://www.legnanonews.com/tag/servizio/" rel="tag">servizio</a></li></ul>                   </div>
+
+      </div>
+
+
+      <div class="clr"></div>
+
+	                <div class="row">
+                <!--PCT CORRELATI-->
+<ins data-revive-zoneid="3119" data-revive-id="e590432163035a6e5fc26dac29dd7e0b"></ins>
+<script async src="//adv.presscommtech.com/www/delivery/asyncjs.php"></script>            </div>
+	    
+      
+<a name="comment-area"></a>
+<div id="comments" class="comments-area">
+    <div class="comments-title"><h4>Commenti</h4></div> 
+    <div id="wrap-comment-form">
+    	<p class="must-log-in"><a href="https://www.varesenews.it/wp-login.php?action=fedlogin&amp;reauth=0&amp;returnSite=www.legnanonews.com" title="Accedi">Accedi</a> o <a href="https://www.varesenews.it/registrati/?&amp;returnSite=www.legnanonews.com">registrati</a> per commentare questo articolo.</p>
+		<p class="comment-policy">L'email è richiesta ma non verrà mostrata ai visitatori. Il contenuto di questo commento esprime il pensiero dell'autore e non rappresenta la linea editoriale di VareseNews.it, che rimane autonoma e indipendente. I messaggi inclusi nei commenti non sono testi giornalistici, ma post inviati dai singoli lettori che possono essere automaticamente pubblicati senza filtro preventivo. I commenti che includano uno o più link a siti esterni verranno rimossi in automatico dal sistema.</p>
+    </div>
+    <a name="comment-list"></a>
+	<div id="wrap-comment-list">
+		                <a name="comment-area"></a>
+        <ol class="comment-list">
+                </ol>
+            </div>   
+</div>
+
+<script type="text/javascript">
+
+  
+jQuery(document).ready(function() {
+
+		var user_info_comment = jQuery.cookie('wordpress_logged_in_usercache');
+		console.log(user_info_comment);
+		if (typeof user_info_comment != 'undefined'){
+			    console.log(user_info_comment);
+		        var user_info_comment_splitted  = user_info_comment.split("|");
+ 				var user_infocomment_id = user_info_comment_splitted[4];
+				
+				jQuery.ajax(
+				{  
+					type: 'GET',  
+					url: '/wp-admin/admin-ajax.php',  
+					data: { action : 'load_ajax_comment_form', id: 963689, userid: user_infocomment_id   },  
+					success: function(textStatus){  
+						jQuery( '#wrap-comment-form' ).html( textStatus ); 
+					},  
+					error: function(MLHttpRequest, textStatus, errorThrown)
+					{  
+						//alert(errorThrown);  
+					}
+				}); 
+				
+				jQuery.ajax(
+				{  
+					type: 'GET',  
+					url: '/wp-admin/admin-ajax.php',  
+					data: { action : 'load_ajax_comment_list', id: 963689, userid: user_infocomment_id   },  
+					success: function(textStatus)
+					{  
+						jQuery( '#wrap-comment-list' ).html( textStatus ); 
+					},  
+					error: function(MLHttpRequest, textStatus, errorThrown)
+					{  
+						//alert(errorThrown);  
+					}
+				}); 
+		}
+		else {
+		 var user_infocomment_id = 0;
+		}
+  		
+
+		
+				
+});	
+
+function replyToComment(commentID)
+{
+	jQuery("#comment_parent").val(commentID);
+	var getcommentposition = jQuery("#comments").offset();
+	var getcommentpositiontop = getcommentposition.top;
+	jQuery('html, body').animate({scrollTop:getcommentpositiontop}, 'slow');
+}		 	
+</script>
+
+      <div id="wrap-bottom-related-posts">
+                <div class="bottom-related-posts">
+          <h4>Dalla Home</h4>
+          <div class="row small-news">
+                                    <article>
+              <header>
+                                <a class="thumb" title="Violenza sessuale di gruppo in un motel a Cornaredo, tre arresti" href="https://www.legnanonews.com/aree-geografiche/rhodense/2022/11/14/violenza-di-gruppo-a-cornaredo-tre-arresti/1048231/"><img src="https://www.varesenews.it/photogallery_new/images/2022/05/carabinieri-1302231.250x184.jpg" alt="carabinieri"></a>
+                                <h3>Cornaredo</h3>
+                <h2><a title="Violenza sessuale di gruppo in un motel a Cornaredo, tre arresti" href="https://www.legnanonews.com/aree-geografiche/rhodense/2022/11/14/violenza-di-gruppo-a-cornaredo-tre-arresti/1048231/">Violenza sessuale di gruppo in un motel a Cornaredo, tre arresti</a></h2>
+              </header>
+            </article>
+                                                <article>
+              <header>
+                                <a class="thumb" title="36esima Giornata dello Studente di Legnano, consegnate 153 borse di studio" href="https://www.legnanonews.com/aree-geografiche/legnano/2022/11/13/la-36esima-giornata-dello-studente-di-legnano-in-diretta-streaming/1047925/"><img src="https://www.varesenews.it/photogallery_new/images/2022/11/la-cerimonia-di-assegnazione-delle-borse-di-studio-promossa-dalla-fondazione-famiglia-legnanese-1351677.250x184.jpg" alt="La cerimonia di assegnazione delle borse di studio promossa dalla Fondazione Famiglia Legnanese"></a>
+                                <h3>Legnano</h3>
+                <h2><a title="36esima Giornata dello Studente di Legnano, consegnate 153 borse di studio" href="https://www.legnanonews.com/aree-geografiche/legnano/2022/11/13/la-36esima-giornata-dello-studente-di-legnano-in-diretta-streaming/1047925/">36esima Giornata dello Studente di Legnano, consegnate 153 borse di studio</a></h2>
+              </header>
+            </article>
+                                                <article>
+              <header>
+                                <a class="thumb" title="ANSO cresce e rinnova il direttivo: Marco Giovannelli confermato presidente" href="https://www.legnanonews.com/altri/2022/11/14/anso-cresce-e-rinnova-il-direttivo-marco-giovannelli-confermato-presidente/1048194/"><img src="https://www.varesenews.it/photogallery_new/images/2022/11/varie-1351833.250x184.jpg" alt="varie"></a>
+                                <h3>Varese</h3>
+                <h2><a title="ANSO cresce e rinnova il direttivo: Marco Giovannelli confermato presidente" href="https://www.legnanonews.com/altri/2022/11/14/anso-cresce-e-rinnova-il-direttivo-marco-giovannelli-confermato-presidente/1048194/">ANSO cresce e rinnova il direttivo: Marco Giovannelli confermato presidente</a></h2>
+              </header>
+            </article>
+                                                <article>
+              <header>
+                                <a class="thumb" title="Asfaltatura in viale Gorizia, il cantiere parte lunedì 14 novembre" href="https://www.legnanonews.com/aree-geografiche/legnano/2022/11/13/asfaltatura-su-viale-gorizia-cambio-di-viabilita-da-lunedi-14-novembre/1047968/"><img src="https://www.varesenews.it/photogallery_new/images/2022/01/lavori-in-corso-foto-generiche-1274045.250x184.jpg" alt="Lavori in corso - foto generiche"></a>
+                                <h3>Legnano</h3>
+                <h2><a title="Asfaltatura in viale Gorizia, il cantiere parte lunedì 14 novembre" href="https://www.legnanonews.com/aree-geografiche/legnano/2022/11/13/asfaltatura-su-viale-gorizia-cambio-di-viabilita-da-lunedi-14-novembre/1047968/">Asfaltatura in viale Gorizia, il cantiere parte lunedì 14 novembre</a></h2>
+              </header>
+            </article>
+                                  </div>
+        </div>
+      </div>
+      <div class="row">
+              </div>
+<!--      -->    </article>
+
+    
+
+<section class="wrap-form-error">
+    <div class="row">
+
+    <h4>Segnala Errore</h4>
+
+	<form id="form-error"  role="form" method="post" name="form-error" class="form-placeholder form-horizontal">
+
+		<input type="hidden" name="required" value="issue_type,messaggio,email,nome,permalink,titolo" />
+		<input type="hidden" name="optional" value="" />
+        <input type="hidden" name="permalink" id="permalink" value="">
+        <input type="hidden" name="titolo" id="titolo" value="Ambiente e inquinamento: la natura può aiutare">
+
+		<div class="col-md-12">
+            <label for="issue_type">Tipo di problema</label>
+            <select class="form-control" size="1" name="issue_type" id="issue_type">
+                <option value="default" selected>Seleziona</option>
+                <option value="navigazione">Problema di navigazione sito</option>
+                <option value="refusi">Segnalazione refusi</option>
+                <option value="altro">Altro</option>
+            </select>
+		</div>
+
+        <div class="col-md-12">
+            <label for="messaggio">Descrizione</label>
+            <textarea rows="2" name="messaggio" cols="41" class="form-control" id="messaggio"></textarea>
+        </div>
+
+        <div class="col-md-6">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" class="form-control" size="45" maxlength="40">
+        </div>
+
+		<div class="col-md-6">
+			<label for="nome">Nome</label>
+			<input type="text" name="nome" id="nome" class="form-control" size="45">
+		</div>
+
+
+
+		<div class="clear" style="clear: both"></div>
+		<p align="center">
+			<input type="submit" class="btn" value="Invia" name="B1">
+<!--			<input type="reset" class="btn" value="Cancella" name="B2">-->
+		</p>
+	</form>
+
+    </div>
+
+
+    <script src="https://www.legnanonews.com/wp-content/themes/editheme/js/jquery-validate/jquery.validate.min.js"></script>
+    <script src="https://www.legnanonews.com/wp-content/themes/editheme/js/jquery-validate/localization/methods_it.js"></script>
+    <script src="https://www.legnanonews.com/wp-content/themes/editheme/js/jquery-validate/localization/messages_it.js"></script>
+    <script type="text/javascript">
+
+        (function($){
+          $(document).ready(function () {
+
+              $.validator.addMethod("valueNotEquals", function(value, element, arg){
+                  return arg !== value;
+              }, "Campo obbligatorio");
+
+              jQuery("#form-error").validate({
+                  //ignore: ".select2-input, input[type=hidden]",
+                  rules:{
+                      'issue_type':{ valueNotEquals: "default"},
+                      'nome':{
+                          required: true,
+                          alfanum_basicpunct: true
+                      },
+                      'messaggio':{
+                          required: true,
+                          alfanum_basicpunct: true
+                      },
+                      'email':{
+                          required: true,
+                          email: true
+                      }
+                  },
+                  invalidHandler: function(form, validator) {
+                      var errors = validator.numberOfInvalids();
+                      if (errors) {
+                          var message = errors == 1
+                              ? 'C\'è un errore nel form.'
+                              : 'Ci sono ' + errors + ' errori nel form.';
+                          jQuery("#form-error").find("div.formerror span").html(message);
+                          jQuery("#form-error").find("div.formerror").show();
+                      } else {
+                          jQuery("#form-error").find("div.formerror").hide();
+                      }
+                  },
+                  errorPlacement: function(error, element) {
+                      if (element.attr("name") == "hiddenRecaptcha" )
+                      {
+                          //error.insertAfter("#YearOfBirth");
+                      }
+                      else error.insertAfter(element);
+                  },
+                  errorClass: "error",
+                  validClass: "success"
+              });
+
+              jQuery('#form-error').submit(function(e){
+                  e.preventDefault();
+                  $(this).validate();
+                  if($(this).valid()){
+                      jQuery("#permalink").val(window.location.href);
+                      jQuery.ajax({
+                          url: "https://www.legnanonews.com/wp-content/themes/editheme/include/form-errore/form.php",
+                          dataType: 'json',
+                          type: "POST",
+                          data: jQuery("#form-error").serialize()
+                      }).done(function(data){
+                          if(data.status === 'success'){
+                              console.log('success');
+                              // console.table(data);
+                              jQuery(".wrap-form-error").html('<div id="contact-form-message" class="btn alert alert-success">Il tuo messaggio è stato inviato correttamente</div>');
+                          } else {
+                              console.log('error');
+                              // console.table(data);
+                              jQuery(".wrap-form-error").html('<div id="contact-form-message" class="btn alert alert-danger">Si è verificato un errore: '+data.errorMessage+'</div>');
+                          }
+                      }).fail( function(data){
+                          console.log('fail');
+                          // console.table(data)
+                      });
+                  }
+
+              })
+
+          })
+        })(jQuery)
+
+    </script>
+
+
+</section>
+
+
+      </div>
+     <aside id="wrap-sidebar-single" class="sidebar">
+  <ul class="sidebar-single">
+            <li class="sb-widget banner">
+      <!--<div style="  margin-bottom: 10px;   width: 300px; height: 250px" class="adunit" id="vn_300x250-01" data-targeting='{"sezione":"--><!--"}' data-dimensions="300x250"></div>-->
+
+<div id='div-gpt-ad-vn_300x250-01' class="edibanner" style='height:250px; width:300px; margin-bottom: 10px;'>
+<script>
+   googletag.cmd.push(function() { googletag.display('div-gpt-ad-vn_300x250-01'); });
+</script>
+</div>
+
+    </li>
+    <li class="sb-widget banner">
+      <div style="  margin-bottom: 10px;   width: 300px; height: 250px" class="adunit" id="vn_300x250-02" data-targeting='{"sezione":"altri","sito":"legnanonews.com"}' data-dimensions="300x250"></div>
+    </li>
+    <li class="sb-widget banner">
+      <div style="  margin-bottom: 10px;   width: 300px; height: 250px" class="adunit" id="vn_300x250-03" data-targeting='{"sezione":"altri","sito":"legnanonews.com"}' data-dimensions="300x250"></div>
+    </li>
+    <li class="sb-widget banner">
+       <div style=" margin-bottom: 10px;   width: 300px; height: 250px" class="adunit" id="vn_300x250-04" data-targeting='{"sezione":"altri","sito":"legnanonews.com"}' data-dimensions="300x250"></div>
+    </li>
+    <li class="sb-widget">
+        	<div class="pct-banner" id="pct-300x250-01">
+        <!-- ########### Ad Script for legnanonews.com_1scroll_300x250 ################# -->
+        <script type='text/javascript'><!--// <![CDATA[
+            OA_show(1467);
+            // ]]> --></script>
+        <!-- ####### Fine Ad Script for legnanonews.com_1scroll_300x250 ################ -->
+	</div>
+    </li>
+     
+    
+			            <li class="sb-widget most-popular">
+                  <div class="tabs-container tc-03">
+        <h2>I più visti</h2>
+        <ul class="tabs-menu tab-popular tab-widget-03">
+            <li class="current"><a href="#tab-1-popular">Articoli</a></li>
+            <li><a href="#tab-2-popular">Foto</a></li>
+            <li><a href="#tab-3-popular">Video</a></li>
+        </ul>
+        <div class="popular-tab">
+            <div id="tab-1-popular" class="tab-content-popular">     <article>
+        <header>
+        <h3><a title="Lavoratrice sospesa a Parabiago &#8220;per una pizza take away&#8221;. Per l&#8217;azienda era in orario di lavoro" href="https://www.legnanonews.com/aree-geografiche/alto_milanese/2022/11/11/sindacati-adl-lavoratrice-sospesa-a-parabiago-per-una-pizza-take-away/1047753/"><span>&raquo;</span> <strong>Sindacati</strong> -  Lavoratrice sospesa a Parabiago &#8220;per una pizza take away&#8221;. Per l&#8217;azienda era in orario di lavoro</a></h3>
+        </header>
+    </article>                 
+        <article>
+        <header>
+        <h3><a title="Mercatini, pizzoccheri e divertimenti, gli eventi dall&#8217;11 al 13 novembre a Legnano e nell&#8217;Alto Milanese" href="https://www.legnanonews.com/aree-geografiche/alto_milanese/2022/11/11/mercatini-pizzoccheri-e-divertimenti-gli-eventi-dall11-al-13-novembre-a-legnano-e-nellalto-milanese/1047904/"><span>&raquo;</span> <strong>Che fare nel weekend</strong> -  Mercatini, pizzoccheri e divertimenti, gli eventi dall&#8217;11 al 13 novembre a Legnano e nell&#8217;Alto Milanese</a></h3>
+        </header>
+    </article>                 
+        <article>
+        <header>
+        <h3><a title="Precipita dal primo piano della sua abitazione a Nerviano, 26enne in ospedale" href="https://www.legnanonews.com/aree-geografiche/alto_milanese/2022/11/12/precipita-dal-primo-piano-della-sua-abitazione-a-nerviano-26enne-in-ospedale/1048052/"><span>&raquo;</span> <strong>Nerviano</strong> -  Precipita dal primo piano della sua abitazione a Nerviano, 26enne in ospedale</a></h3>
+        </header>
+    </article>                 
+        <article>
+        <header>
+        <h3><a title="Vigili del Fuoco in via Alberto Da Giussano a Legnano per soccorrere una persona" href="https://www.legnanonews.com/aree-geografiche/legnano/2022/11/12/vigili-del-fuoco-in-via-da-giussano-a-legnano-per-un-soccorso-a-persona/1048060/"><span>&raquo;</span> <strong>Legnano</strong> -  Vigili del Fuoco in via Alberto Da Giussano a Legnano per soccorrere una persona</a></h3>
+        </header>
+    </article>                 
+        <article>
+        <header>
+        <h3><a title="36esima Giornata dello Studente di Legnano, consegnate 153 borse di studio" href="https://www.legnanonews.com/aree-geografiche/legnano/2022/11/13/la-36esima-giornata-dello-studente-di-legnano-in-diretta-streaming/1047925/"><span>&raquo;</span> <strong>Legnano</strong> -  36esima Giornata dello Studente di Legnano, consegnate 153 borse di studio</a></h3>
+        </header>
+    </article>                 
+     </div>
+            <div id="tab-2-popular" class="tab-content-popular">     <article>
+        <header>
+        <h3><a title="Incidente sull&#8217;A8 direzione a Busto Arsizio" href="https://www.legnanonews.com/photogallery/incidente-sulla8-direzione-a-busto-arsizio/"><span>&raquo;</span>  Incidente sull&#8217;A8 direzione a Busto Arsizio</a></h3>
+        </header>
+    </article>                 
+        <article>
+        <header>
+        <h3><a title="Legnano festeggia in sala Stemmi i suoi benemeriti. a cura di Pasquale Antonio Emanuele" href="https://www.legnanonews.com/photogallery/legnano-festeggia-in-sala-stemmi-i-suoi-benemeriti/"><span>&raquo;</span>  Legnano festeggia in sala Stemmi i suoi benemeriti. a cura di Pasquale Antonio Emanuele</a></h3>
+        </header>
+    </article>                 
+        <article>
+        <header>
+        <h3><a title="Gli Ambulanti di Forte dei Marmi® a Legnano" href="https://www.legnanonews.com/photogallery/gli-ambulanti-di-forte-dei-marmi-a-legnano-5/"><span>&raquo;</span>  Gli Ambulanti di Forte dei Marmi® a Legnano</a></h3>
+        </header>
+    </article>                 
+        <article>
+        <header>
+        <h3><a title="Festa del patrono San Magno a Legnano, in 200 al pranzo" href="https://www.legnanonews.com/photogallery/festa-del-patrono-san-magno-a-legnano-in-200-al-pranzo/"><span>&raquo;</span>  Festa del patrono San Magno a Legnano, in 200 al pranzo</a></h3>
+        </header>
+    </article>                 
+        <article>
+        <header>
+        <h3><a title="Serata Tricolore con Fratelli d&#8217;Italia a Legnano" href="https://www.legnanonews.com/photogallery/serata-tricolore-con-fratelli-ditalia-a-legnano/"><span>&raquo;</span>  Serata Tricolore con Fratelli d&#8217;Italia a Legnano</a></h3>
+        </header>
+    </article>                 
+     </div>
+            <div id="tab-3-popular" class="tab-content-popular">     <article>
+        <header>
+        <h3><a title="Lavoro, ecco quali sono le figure più ricercate dalle aziende del Legnanese" href="https://www.legnanonews.com/video/lavoro-ecco-quali-sono-le-figure-piu-ricercate-dalle-aziende-del-legnanese/"><span>&raquo;</span>  Lavoro, ecco quali sono le figure più ricercate dalle aziende del Legnanese</a></h3>
+        </header>
+    </article>                 
+        <article>
+        <header>
+        <h3><a title="Coppa Bernocchi: il video celebrativo l&#8217;edizione 103 della corsa legnanese" href="https://www.legnanonews.com/video/coppa-bernocchi-il-video-celebrativo-ledizione-103-della-corsa-legnanese/"><span>&raquo;</span>  Coppa Bernocchi: il video celebrativo l&#8217;edizione 103 della corsa legnanese</a></h3>
+        </header>
+    </article>                 
+        <article>
+        <header>
+        <h3><a title="Inaugurata a Busto Garolfo la prima Casa di Comunità dell&#8217;Alto Milanese" href="https://www.legnanonews.com/video/inaugurata-a-busto-garolfo-la-prima-casa-di-comunita-dellalto-milanese/"><span>&raquo;</span>  Inaugurata a Busto Garolfo la prima Casa di Comunità dell&#8217;Alto Milanese</a></h3>
+        </header>
+    </article>                 
+        <article>
+        <header>
+        <h3><a title="Ex Crespi e aree dismesse, il sindaco di Legnano agli operatori: &#8220;Flessibili ma fermissimi sulle regole&#8221;" href="https://www.legnanonews.com/video/ex-crespi-e-aree-dismesse-il-sindaco-di-legnano-agli-operatori-flessibili-ma-fermissimi-sulle-regole/"><span>&raquo;</span>  Ex Crespi e aree dismesse, il sindaco di Legnano agli operatori: &#8220;Flessibili ma fermissimi sulle regole&#8221;</a></h3>
+        </header>
+    </article>                 
+        <article>
+        <header>
+        <h3><a title="Quale futuro per la Chiesa &#8211; Dialogo con don Julián Carrón" href="https://www.legnanonews.com/video/quale-futuro-per-la-chiesa-dialogo-con-don-julian-carron/"><span>&raquo;</span>  Quale futuro per la Chiesa &#8211; Dialogo con don Julián Carrón</a></h3>
+        </header>
+    </article>                 
+     </div>
+        </div>
+    </div>
+            </li>
+                        <li class="sb-widget photo-carousel">
+              <div class="tabs-container tc-01">
+  <ul class="tabs-menu tab-widget tab-widget-01">
+    <li class="current"><a href="#tab-1">Gallerie Fotografiche</a></li>
+    <li><a href="#tab-2">WebTV</a></li>
+   
+  </ul>
+  <div class="tab">
+    <div id="tab-1" class="tab-content">
+            <div id="photo-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+                    <div class="item active">
+            <a   title="Hyperb Wellness Boutique" href="https://www.legnanonews.com/photogallery/hyperb-wellness-boutique/"><img alt="Hyperb Wellness Boutique" src="https://www.varesenews.it/photogallery_new/images/2022/10/hyperb-wellness-boutique-1340887.610x431.jpg"></a>            <div class="container">
+              <div class="carousel-photo-caption">
+                <h1>
+                  <a   title="Hyperb Wellness Boutique" href="https://www.legnanonews.com/photogallery/hyperb-wellness-boutique/">Hyperb Wellness Boutique</a>
+                </h1>
+              </div>
+            </div>
+          </div>
+                    <div class="item ">
+            <a   title="&#8220;Gli Ambulanti di Forte dei Marmi” a Origgio" href="https://www.legnanonews.com/photogallery/gli-ambulanti-di-forte-dei-marmi-a-origgio-3/"><img alt="&#8220;Gli Ambulanti di Forte dei Marmi” a Origgio" src="https://www.varesenews.it/photogallery_new/images/2020/10/gli-ambulanti-di-forte-dei-marmi-a-origgio-1183577.610x431.jpg"></a>            <div class="container">
+              <div class="carousel-photo-caption">
+                <h1>
+                  <a   title="&#8220;Gli Ambulanti di Forte dei Marmi” a Origgio" href="https://www.legnanonews.com/photogallery/gli-ambulanti-di-forte-dei-marmi-a-origgio-3/">&#8220;Gli Ambulanti di Forte dei ...</a>
+                </h1>
+              </div>
+            </div>
+          </div>
+                    <div class="item ">
+            <a   title="T-Clar al Festival del Benessere" href="https://www.legnanonews.com/photogallery/t-clar-al-festival-del-benessere/"><img alt="T-Clar al Festival del Benessere" src="https://www.varesenews.it/photogallery_new/images/2020/10/t-clar-al-festival-del-benessere-1182572.610x431.jpg"></a>            <div class="container">
+              <div class="carousel-photo-caption">
+                <h1>
+                  <a   title="T-Clar al Festival del Benessere" href="https://www.legnanonews.com/photogallery/t-clar-al-festival-del-benessere/">T-Clar al Festival del Benessere</a>
+                </h1>
+              </div>
+            </div>
+          </div>
+                    <div class="item ">
+            <a   title="Tuttonatura edizione autunno 2020" href="https://www.legnanonews.com/photogallery/tuttonatura-edizione-autunno-2020/"><img alt="Tuttonatura edizione autunno 2020" src="https://www.varesenews.it/photogallery_new/images/2020/10/tuttonatura-edizione-autunno-2020-1182481.610x431.jpg"></a>            <div class="container">
+              <div class="carousel-photo-caption">
+                <h1>
+                  <a   title="Tuttonatura edizione autunno 2020" href="https://www.legnanonews.com/photogallery/tuttonatura-edizione-autunno-2020/">Tuttonatura edizione autunno 2020</a>
+                </h1>
+              </div>
+            </div>
+          </div>
+                    <div class="item ">
+            <a   title="Il giorno e la storia, mese di ottobre" href="https://www.legnanonews.com/photogallery/il-giorno-e-la-storia-mese-di-ottobre/"><img alt="Il giorno e la storia, mese di ottobre" src="https://www.varesenews.it/photogallery_new/images/2020/10/il-giorno-e-la-storia-mese-di-ottobre-1184964.610x431.jpg"></a>            <div class="container">
+              <div class="carousel-photo-caption">
+                <h1>
+                  <a   title="Il giorno e la storia, mese di ottobre" href="https://www.legnanonews.com/photogallery/il-giorno-e-la-storia-mese-di-ottobre/">Il giorno e la storia, mese di </a>
+                </h1>
+              </div>
+            </div>
+          </div>
+                  </div>
+                <a class="left carousel-control" href="#photo-carousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#photo-carousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+              </div>
+          </div>
+    <div id="tab-2" class="tab-content">
+            <div id="video-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+                    <div class="item active">
+            <a target="_blank" title="Corso di magia con Roberto Bombassei &#8211; 38" href="https://www.legnanonews.com/video/corso-di-magia-con-roberto-bombassei-38/">
+			 
+            	<img alt="Corso di magia con Roberto Bombassei &#8211; 38" src="https://img.youtube.com/vi/2MS39_4aGRw/0.jpg">
+                         </a>
+            <div class="container">
+              <div class="carousel-photo-caption">
+                <h1><a  title="Corso di magia con Roberto Bombassei &#8211; 38" href="https://www.legnanonews.com/video/corso-di-magia-con-roberto-bombassei-38/">Corso di magia con Roberto Bombassei ...</a></h1>
+              </div>
+            </div>
+           
+          </div>
+                    <div class="item ">
+            <a target="_blank" title="Da “studente fuori sede” a blogger di Legnano: Ivana Marra di “Studenti ai fornelli”" href="https://www.legnanonews.com/video/da-studente-fuori-sede-a-blogger-di-legnano-ivana-marra-di-studenti-ai-fornelli/">
+			 
+            	<img alt="Da “studente fuori sede” a blogger di Legnano: Ivana Marra di “Studenti ai fornelli”" src="https://img.youtube.com/vi/12UMuTxhePI/0.jpg">
+                         </a>
+            <div class="container">
+              <div class="carousel-photo-caption">
+                <h1><a  title="Da “studente fuori sede” a blogger di Legnano: Ivana Marra di “Studenti ai fornelli”" href="https://www.legnanonews.com/video/da-studente-fuori-sede-a-blogger-di-legnano-ivana-marra-di-studenti-ai-fornelli/">Da “studente fuori sede” a blogger ...</a></h1>
+              </div>
+            </div>
+           
+          </div>
+                    <div class="item ">
+            <a target="_blank" title="Corso di magia con Roberto Bombassei &#8211; 34" href="https://www.legnanonews.com/video/corso-di-magia-con-roberto-bombassei-34/">
+			 
+            	<img alt="Corso di magia con Roberto Bombassei &#8211; 34" src="https://img.youtube.com/vi/2kLBVnyt4eg/0.jpg">
+                         </a>
+            <div class="container">
+              <div class="carousel-photo-caption">
+                <h1><a  title="Corso di magia con Roberto Bombassei &#8211; 34" href="https://www.legnanonews.com/video/corso-di-magia-con-roberto-bombassei-34/">Corso di magia con Roberto Bombassei ...</a></h1>
+              </div>
+            </div>
+           
+          </div>
+                    <div class="item ">
+            <a target="_blank" title="Dalla Basilica San Magno la messa con il saluto a mons. Erminio Villa" href="https://www.legnanonews.com/video/dalla-basilica-san-magno-la-messa-con-il-saluto-a-mons-erminio-villa/">
+			 
+            	<img alt="Dalla Basilica San Magno la messa con il saluto a mons. Erminio Villa" src="https://img.youtube.com/vi/y-zkCi5tvLs/0.jpg">
+                         </a>
+            <div class="container">
+              <div class="carousel-photo-caption">
+                <h1><a  title="Dalla Basilica San Magno la messa con il saluto a mons. Erminio Villa" href="https://www.legnanonews.com/video/dalla-basilica-san-magno-la-messa-con-il-saluto-a-mons-erminio-villa/">Dalla Basilica San Magno la messa con il...</a></h1>
+              </div>
+            </div>
+           
+          </div>
+                    <div class="item ">
+            <a target="_blank" title="Corso di magia con Roberto Bombassei &#8211; 29" href="https://www.legnanonews.com/video/corso-di-magia-con-roberto-bombassei-29/">
+			 
+            	<img alt="Corso di magia con Roberto Bombassei &#8211; 29" src="https://img.youtube.com/vi/tI3WwdWcOJA/0.jpg">
+                         </a>
+            <div class="container">
+              <div class="carousel-photo-caption">
+                <h1><a  title="Corso di magia con Roberto Bombassei &#8211; 29" href="https://www.legnanonews.com/video/corso-di-magia-con-roberto-bombassei-29/">Corso di magia con Roberto Bombassei ...</a></h1>
+              </div>
+            </div>
+           
+          </div>
+                  </div>
+                <a class="left carousel-control" href="#video-carousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#video-carousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+              </div>
+          </div>
+ 
+  </div>
+</div>
+            </li>
+                        <li class="sb-widget banner">
+                  <!-- SELF-MR1 300x250  -->
+ 
+            </li>
+            <li class="sb-widget banner">
+               <div style="  margin-bottom: 10px;  width: 300px; height: 250px" class="adunit" id="vn_300x250-05" data-targeting='{"sezione":"altri","sito":"legnanonews.com"}' data-dimensions="300x250"></div>
+            </li>
+            <li class="sb-widget banner">
+               <div style="  margin-bottom: 10px;  width: 300px; height: 250px" class="adunit" id="vn_300x250-06" data-targeting='{"sezione":"altri","sito":"legnanonews.com"}' data-dimensions="300x250"></div>
+            </li>
+            <li class="sb-widget banner">
+                  <!-- SELF-MR2 300x250  -->
+ 
+            </li>
+            <li class="sb-widget banner">
+                  <!-- SELF-MR3 300x250  -->
+ 
+            </li>
+                        
+            <li class="sb-widget">
+	            <div class="fb-like-box" data-href="https://www.facebook.com/legnanonews/" data-width="300" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="true"></div>
+
+            </li>
+            <li class="sb-widget">
+                          </li>
+            <li class="sb-widget">
+              <div class="gray-box necro feed">
+	<h3><a target="_blank" href="https://www.varesenews.it/necrologie/">Ricordiamo i nostri cari</a></h3>
+	<ul>
+
+	</ul>
+</div>
+            </li>
+          
+                <li class="sb-widget banner">
+                    <div style=" margin-bottom:10px;  width: 300px; height: 600px" class="adunit" id="vn_300x600-01" data-targeting='{"sezione":"altri","sito":"legnanonews.com"}' data-dimensions="300x600"></div>
+                </li>
+
+                       
+      </ul>
+</aside>
+    </div>
+<div class="row footer-header">
+
+	
+  <a title="Torna in Homepage" class="logo" href="/"><img alt="LegnanoNews - Le news di Legnano e dell'Alto Milanese" src="https://www.legnanonews.com/wp-content/uploads/2020/05/logo-legnanonews-1.png" ></a>
+
+	
+<ul id="footer-icon-menu">
+	<li id="registrati-footer-link"><a title="Registrati" href="https://www.varesenews.it/registrati/?&amp;returnSite=www.legnanonews.com"><span><i class="fa fa-sign-in"></i> </span>
+			<p>Registrati</p>
+		</a></li>
+	<li><a title="Redazione" target="_blank" href="https://www.legnanonews.com/redazione/"><span><i class="fa fa-users"></i> </span>
+			<p>Redazione</p>
+		</a></li>
+	<li><a title="Invia contributo" target="_blank" href="https://www.varesenews.it/invia-contributo?satellite=www-legnanonews-com&amp;returnSite=www.legnanonews.com"><span><i class="fa fa-send"></i></span>
+			<p>Invia notizia</p>
+		</a></li>
+		<li><a title="Feed RSS" target="_blank" href="/feed/news24/"><span><i class="fa fa-rss"></i></span>
+			<p>Feed RSS</p>
+		</a></li>
+			<li><a target="_blank" title="Seguici su Facebook" href="https://www.facebook.com/legnanonews/"><span><i class="fa fa-facebook"></i></span>
+			<p>Facebook</p>
+		</a></li>
+			<li><a target="_blank" title="Seguici su Twitter" href="https://twitter.com/legnanonews"><span><i class="fa fa-twitter"></i></span>
+			<p>Twitter</p>
+		</a></li>
+		        <li><a target="_blank" title="Seguici su Instagram" href="https://www.instagram.com/legnanonews/"><span><i class="fa fa-instagram"></i></span>
+                <p>Instagram</p>
+            </a></li>
+		<li><a title="Contatti" target="_blank" href="https://www.legnanonews.com/redazione/"><span><i class="fa fa-envelope"></i></span>
+			<p>Contatti</p>
+		</a></li>
+
+<!--	<li><a title="Società" target="_blank"  href="--><!--"><span><i class="fa fa-pie-chart"></i></span>-->
+<!--			<p>Società</p>-->
+<!--		</a></li>-->
+
+	<li><a target="_blank" title="Pubblicità" href="https://www.legnanonews.com/pubblicita/"><span><i class="fa fa-line-chart"></i></span>
+			<p>Pubblicità</p>
+		</a></li>
+</ul>
+
+</div>
+
+<div class="row footer-menu">
+  <ul class="sub-menu">
+  <li class="menu-01">
+    <h4>News</h4>
+
+	            <ul class="submenu submenu-01">
+              <li class="menu-item"><a href="/">Prima Pagina</a></li>
+			                    <li class="menu-item"><a href="https://www.legnanonews.com/cronaca/">Cronaca</a></li>
+                                <li class="menu-item"><a href="https://www.legnanonews.com/politica/">Politica</a></li>
+                                <li class="menu-item"><a href="https://www.legnanonews.com/economia/">Economia</a></li>
+                                <li class="menu-item"><a href="https://www.legnanonews.com/eventi/">Eventi</a></li>
+                                <li class="menu-item"><a href="https://www.legnanonews.com/lettere_in_redazione/">Lettere in redazione</a></li>
+                                <li class="menu-item"><a href="https://www.legnanonews.com/palio/">Palio</a></li>
+                                <li class="menu-item"><a href="https://www.legnanonews.com/rubriche/">Rubriche</a></li>
+                                <li class="menu-item"><a href="https://www.legnanonews.com/salute/">Salute</a></li>
+                                <li class="menu-item"><a href="https://www.legnanonews.com/scuola/">Scuola</a></li>
+                                <li class="menu-item"><a href="https://www.legnanonews.com/editoriale/">Editoriale</a></li>
+                                <li class="menu-item"><a href="https://www.legnanonews.com/sport/">Sport</a></li>
+			  
+          </ul>
+	  
+<!--    -->  </li>
+  <li class="menu-02">
+      <h4>Territori</h4>
+      <ul class="submenu submenu-02">
+                <li><a href="https://www.legnanonews.com/aree-geografiche/legnano/">Legnano</a></li>
+                <li><a href="https://www.legnanonews.com/aree-geografiche/alto_milanese/">Alto Milanese</a></li>
+                <li><a href="https://www.legnanonews.com/aree-geografiche/rhodense/">Rhodense</a></li>
+                <li><a href="https://www.legnanonews.com/aree-geografiche/varesotto/">Varesotto</a></li>
+                <li><a href="https://www.legnanonews.com/aree-geografiche/lombardia/">Lombardia</a></li>
+                <li><a href="https://www.legnanonews.com/tutti-i-comuni/">Tutti i comuni</a></li>
+      </ul>
+  </li>
+  <li  class="menu-03">
+    <h4>Multimedia</h4>
+    <ul class="submenu submenu-03">
+      <li><a title="Photogallery" href="https://www.legnanonews.com/home-photogallery/">Gallerie Fotografiche</a></li>
+      <li><a title="WebTV" href="https://www.legnanonews.com/webtv/">Web TV</a></li>
+    </ul>
+  </li>
+            <li  class="menu-04">
+            <h4>Comunità</h4>
+            <ul class="submenu">
+                        <li><a title="Foto dei lettori" href="https://www.legnanonews.com/foto-dei-lettori/">Foto dei lettori</a></li>
+            
+                        <li><a title="Auguri" href="https://www.legnanonews.com/auguri/">Auguri</a></li>
+            
+                        <li><a title="Lettere al direttore" href="https://www.legnanonews.com/lettere-al-direttore/">Lettere al direttore</a></li>
+            
+                        <li><a title="Animali" href="https://www.legnanonews.com/animali/">Animali</a></li>
+            
+                    </ul>
+        </li>
+
+      <li  class="menu-05">
+    <h4>Utilità</h4>
+    <ul class="submenu submenu-05">
+	    
+	                <li class="menu-item"><a href="https://www.legnanonews.com/notizie-sponsorizzate/">Dal Territorio</a></li>
+	    
+	                <li class="menu-item"><a href="https://www.legnanonews.com/meteo/">Meteo</a></li>
+	    
+        <li><a title="Archivio" href="https://www.legnanonews.com/home-archivio/ ">Archivio</a></li>
+      <li><a title="Archivio Tag" href="https://www.legnanonews.com/archivio-tag/">Tag</a></li>
+      <li><a title="News 24" href="https://www.legnanonews.com/news-24/">News24</a></li>
+      <li><a title="Articoli più letti" href="https://www.legnanonews.com/articoli-piu-letti/">Articoli più letti</a></li>
+    </ul>
+ <!--  <li  class="menu-06"> </li> -->
+</ul>
+</div>
+<footer id="wrap-footer">
+	<p>
+    Legnanonews.com <br>
+    Sito di informazione locale <br>
+    Direttore responsabile: Marco Tajè <br>
+    Registrazione al Tribunale di Milano n° 639 del 23/10/08 <br>
+    Redazione: Via Matteotti, 3 (presso Famiglia Legnanese) <br>
+    20025 Legnano (MI) <br><br>
+
+    Cell.: +39.393.9013760 <br>
+    Email Direzione: direttore@legnanonews.com <br>
+    Email Redazione: info@legnanonews.com <br>
+    Pubblicità: commerciale@legnanonews.com <br><br>
+
+    Tutti i contenuti originali sono di proprietà di LegnanoNews, ne è consentito l'utilizzo citando il sito come fonte. Dei contenuti non originali viene citata la fonte. <br>
+
+    Copyright © 2016 - 2022 - LegnanoNews - Proprietà di Professional Network s.r.l. - P.Iva 03068650120 <br>
+
+    <a title="Impostazioni Cookie" onclick="window.__tcfapi('displayConsentUi', 2, function() {} );" href="#">Imp. Cookie</a> -
+    <a title="Informativa Cookie" href="https://www.legnanonews.com/cookie/">Cookie</a> -
+    <a title="Informativa Privacy" href="https://www.legnanonews.com/privacy/">Privacy</a>
+</p></footer>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Effettua l'accesso</h4>
+      </div>
+      <div class="modal-body">
+
+	                    <p>Inserisci le tue credenziali</p>
+	      
+        <form name="loginform" id="loginform" action="/wp-login.php?redirect=https/" method="post">
+          <div class="form-group">
+            <label for="user_login">Nome utente </label>
+            <input    type="text" name="log" id="user_login" class="form-control" value="" size="20">
+          </div>
+          <div class="form-group">
+            <label for="user_pass">Password </label>
+            <input   type="password" name="pwd" id="user_pass" class="form-control" value="" size="20">
+          </div>
+          <div class="form-group">
+            <input  type="submit" name="wp-submit" id="wp-submit" class="btn btn-default" value="Login">
+          </div>
+          <input type="hidden" name="redirect_to" value="/">
+          <input type="hidden" name="testcookie" value="1">
+        </form>
+        <p>Non sei registrato? <a title="Registrati" href="https://www.varesenews.it/registrati/?&amp;returnSite=www.legnanonews.com">Clicca qui</a></p>
+        <p>Hai dimenticato la password? <a href="https://www.varesenews.it/wp-login.php?action=lostpassword" title="Clicca qui">Clicca qui</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<script type='text/javascript' src='https://www.legnanonews.com/wp-content/themes/editheme/js/all-init.js?ver=1651499862'></script>
+<script type='text/javascript' src='https://www.legnanonews.com/wp-content/themes/editheme/js/commons.js?ver=1651499862'></script>
+<script type='text/javascript' src='https://www.legnanonews.com/wp-content/themes/editheme/js/testads.js?ver=1651499862'></script>
+<script type='text/javascript' src='https://www.legnanonews.com/wp-includes/js/wp-embed.min.js?ver=5.4.12'></script>
+
+
+        <script>
+
+            var catdefault = "altri";
+            var catref = document.referrer;
+            // var catref = 'saronnonews.it/category/economia/';
+            console.edilog('catref',catref);
+
+
+            let site_domain = "legnanonews.com";
+            // site_domain = site_domain.replace('.','\\.');
+
+            const regexp_cat = new RegExp(site_domain+"/category/([a-z0-9-]*)/");
+            console.edilog('regexp',regexp_cat);
+            var matches = catref.match(regexp_cat);
+            console.edilog('matches',matches);
+
+            let usecat;
+            if (matches != null) usecat= matches[1];
+            else usecat = catdefault;
+
+
+            var permalink = "https://www.legnanonews.com/altri/2020/12/23/ambiente-e-inquinamento-la-natura-puo-aiutare/963689/";
+            const regexp_link = new RegExp(site_domain);
+            var pagparam = permalink.replace(regexp_link, site_domain+"/"+usecat);
+            console.edilog('pagparam',pagparam);
+
+        </script>
+
+		            <!-- Inizio Codice ShinyStat -->
+            <script type="text/javascript">
+                document.write("<sc"+"ript type=\"text/javascript\" language=\"JavaScript\" src=\"https://codicebusiness.shinystat.com/cgi-bin/getcod.cgi?USER=legnanonews&NODW=yes&P=3&PAG="+encodeURI(pagparam)+"\" async=\"async\"></sc"+"ript>");
+            </script>
+            <noscript>
+                <a href="https://www.shinystat.com/it" target="_top"><img src="https://www.shinystat.com/cgi-bin/shinystat.cgi?USER=legnanonews&P=3" border="0"></a>
+            </noscript>
+            <!-- Fine Codice ShinyStat -->
+		
+		
+	
+    <!-- Inizio Codice ShinyStat -->
+    <!--<script type="text/javascript" src="//codiceisp.shinystat.com/cgi-bin/getcod.cgi?USER=MalpensaNews"></script>-->
+    <!--<noscript>-->
+    <!--<a href="http://www.shinystat.com/it/" target="_top">-->
+    <!--<img src="//www.shinystat.com/cgi-bin/shinystat.cgi?USER=MalpensaNews" alt="Statistiche" style="border:0px" /></a>-->
+    <!--</noscript>-->
+    <!-- Fine Codice ShinyStat -->
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.3&appId=384171475063675";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
+<script>
+    window.addEventListener("DOMContentLoaded",function (event) {
+        jQuery.dfp({
+            dfpID: '21928468919'
+        });
+    });
+</script>
+    <div class="pct-banner" id="pct-richmedia">
+        <!-- ########### Ad Script for legnanonews.com_RichMedia1 ################# -->
+        <script type='text/javascript'><!--// <![CDATA[
+            OA_show(1470);
+            // ]]> --></script>
+        <!-- ####### Fine Ad Script for legnanonews.com_RichMedia1 ################ -->
+    </div>
+<script type="text/javascript" src="//codiceisp.shinystat.com/cgi-bin/getcod.cgi?USER=PCT-legnanonews&NODW=yes&P=4" async="async"></script>
+
+</body></html>
